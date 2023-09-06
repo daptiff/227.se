@@ -1,3 +1,7 @@
 a:hover {
     font-weight: bold;
 }
+
+body {
+    background-color: rgb(#FAF9F6);
+}
