@@ -7,9 +7,9 @@ function attemptLogin() {
     if (username === 'admin' && password === 'admin') {
         loginResult.innerHTML = '<p>Login successful! Redirecting...</p>';
         setTimeout(() => {
-            window.location.href = 'welcome.html'; // Redirect to a welcome page
-        }, 2000); // Delay for 2 seconds before redirecting (for demonstration)
+            window.location.href = 'new/index.html';
+        }, 2000);
     } else {
-        loginResult.innerHTML = '<p>Invalid username or password. Please try again.</p>';
+        loginResult.innerHTML = '<p>invalid</p>';
     }
 }
