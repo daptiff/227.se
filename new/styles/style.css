@@ -1,0 +1,8 @@
+@font-face {
+    font-family: cursive_font;
+    src: url(../resources/cursive_font.ttf);
+}
+
+body {
+    font-family: cursive_font;
+}
