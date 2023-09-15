@@ -5,11 +5,11 @@ function attemptLogin() {
 
     // Simulate a simple login
     if (username === 'admin' && password === 'admin') {
-        loginResult.innerHTML = '<p>successful</p>';
+        loginResult.innerHTML = '';
         setTimeout(() => {
             window.location.href = 'new/index.html';
         }, 2000);
     } else {
-        loginResult.innerHTML = '<p>invalid</p>';
+        loginResult.innerHTML = '';
     }
 }
