@@ -1,23 +1,28 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <title>Login Page</title>
     <link rel="stylesheet" type="text/css" href="style.css">
 </head>
+
 <body>
     <div class="login-container">
         <h2>Login</h2>
-        <form action="process_login.php" method="POST">
+        <form id="login-form">
             <label for="username">Username:</label>
             <input type="text" id="username" name="username" required>
 
-            <br>
-            
             <label for="password">Password:</label>
             <input type="password" id="password" name="password" required>
-            
-            <button type="submit">Login</button>
+
+            <button type="button" onclick="attemptLogin()">Login</button>
         </form>
     </div>
+
+    <div id="login-result"></div>
+
+    <script src="loginscript.js"></script>
 </body>
+
 </html>
