@@ -5,7 +5,7 @@ function attemptLogin() {
 
     // Simulate a simple login
     if (username === 'admin' && password === 'admin') {
-        loginResult.innerHTML = '<p>Login successful! Redirecting...</p>';
+        loginResult.innerHTML = '<p>successful</p>';
         setTimeout(() => {
             window.location.href = 'new/index.html';
         }, 2000);
