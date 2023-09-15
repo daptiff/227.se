@@ -8,6 +8,6 @@ body {
     font-stretch: semi-expanded;
 }
 
-a.hover {
+a:hover {
     font-stretch: extra-expanded;
 }
