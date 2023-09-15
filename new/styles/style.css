@@ -1,10 +1,22 @@
-@font-face {
+/* @font-face {
     font-family: cursive_font;
     src: url(../resources/cursive_font.ttf);
 }
 
 body {
     font-family: cursive_font;
+    font-stretch: semi-expanded;
+}
+
+a:hover {
+    font-stretch: extra-expanded;
+} */
+
+
+@import url('../resources/cursive_font.ttf') format('truetype');
+
+body {
+    font-family: 'cursive_font', cursive, sans-serif;
     font-stretch: semi-expanded;
 }
 
