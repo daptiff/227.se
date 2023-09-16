@@ -4,7 +4,7 @@
 }
 
 body {
-    scale: 1,5;
+    font-size: large;
     background-image: url("../resources/bg1.jpg");
     font-family: 'cursive_font', cursive, sans-serif;
     font-size: large;
