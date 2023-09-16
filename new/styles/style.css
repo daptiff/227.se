@@ -13,11 +13,11 @@ body {
 
 a {
     color: white;
-    outline: invert;
+    text-shadow: 1px 1px 0 black;
 
 }
 
 a:hover {
     font-weight: bold;
-    font-stretch: expanded 100px;
+    font-stretch: expanded extra-expanded;
 }
