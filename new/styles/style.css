@@ -5,9 +5,11 @@
 
 body {
     font-family: 'cursive_font', cursive, sans-serif;
-    font-stretch: semi-expanded;
+    font-size: large;
+
 }
 
 a:hover {
-    font-stretch: extra-expanded;
+    font-weight: bold;
+    font-stretch: expanded;
 }
