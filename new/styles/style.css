@@ -5,6 +5,10 @@
 
 body {
     background-image: url("../resources/bg1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
     font-family: 'cursive_font', cursive, sans-serif;
     font-size: large;
 }
