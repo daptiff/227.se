@@ -4,9 +4,15 @@
 }
 
 body {
+    scale: 1,5;
     background-image: url("../resources/bg1.jpg");
     font-family: 'cursive_font', cursive, sans-serif;
     font-size: large;
+
+}
+
+a {
+    color: white;
 
 }
 
