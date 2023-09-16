@@ -7,17 +7,16 @@ body {
     background-image: url("../resources/bg1.jpg");
     font-family: 'cursive_font', cursive, sans-serif;
     font-size: large;
-
 }
 
 a {
     font-size: large;
     color: white;
     text-shadow: 1px 1px 0 black;
-
+    display: inline-block; 
+    transition: transform 1ms;
 }
 
-a:hover {
-    /* font-weight: bold; */
-    width: 150px;
+a.stretch-link:hover {
+    transform: scaleX(1.2);
 }
