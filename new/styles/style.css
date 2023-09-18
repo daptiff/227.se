@@ -8,26 +8,28 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
-
     font-family: 'cursive_font', cursive, sans-serif;
     font-size: large;
-    
     text-align: center;
 }
 
+.center-image {
+    
+    max-width: 100%;
+    max-height: 400px; /* Set the maximum height */
+    width: auto; /* Allow the image to resize according to its aspect ratio */
+    }
+
 a {
-    text-align: center;
     font-size: larger;
     text-decoration: none;
-    
     color: white;
     text-shadow: 1px 1px 0 black;
-
-    display: inline-block; 
+    display: inline-block;
     transition: transform 1ms;
 }
 
 a.stretch-link:hover {
-    transform: scaleX(1.2);
+    transform: scale(1.2);
     font-style: italic;
 }
