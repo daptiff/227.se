@@ -4,13 +4,22 @@
 }
 
 body {
-    background-image: url("../resources/bg1.jpg");
+    background-color: #18181C;
+    /*
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
+    */
     font-family: 'cursive_font', cursive, sans-serif;
     font-size: large;
     text-align: center;
+}
+
+.slm { 
+    color: white;
+    font-size: smaller;
+    font-weight: italic;
+
 }
 
 .center-image {
@@ -25,11 +34,13 @@ a {
     text-decoration: none;
     color: white;
     text-shadow: 1px 1px 0 black;
+    -webkit-text-stroke-width: 1%;
+    -webkit-text-stroke-color: black;
     display: inline-block;
     transition: transform 1ms;
 }
 
 a.stretch-link:hover {
     transform: scale(1.2);
-    font-style: italic;
+    /* font-style: italic; */
 }
