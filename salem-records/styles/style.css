@@ -1,0 +1,41 @@
+@font-face {
+    font-family: font2;
+    src: url(../resources/fonts/tahomabd.ttf);
+}
+
+.topTitle {
+font-family: font2;
+}
+
+body {
+    background-color: #fff2e6;
+    color: #9a0104;
+}
+
+.bLink {
+    color: #9a0104;
+    text-decoration: none;
+}
+
+.bLink::before,
+.bLink::after {
+    content: '';
+    opacity: 0;
+    transition: opacity 1ms;
+}
+
+.bLink::before {
+    content: '>';
+    margin-right: 5px;
+}
+
+.bLink:after {
+    content: '<';
+    margin-left: 5px;
+}
+
+.bLink:hover::before,
+.bLink:hover::after {
+    text-decoration: none;
+    opacity: 1;
+}
