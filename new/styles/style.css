@@ -3,27 +3,49 @@
     src: url(../resources/cursive_font.ttf);
 }
 
+@media screen and (max-width: 767px) {
+    .container {
+        max-width: 100%; /* Take up the full width on mobile devices */
+        left: 0; /* Remove space on the left side */
+        right: 0; /* Remove space on the right side */
+    }
+}
+
 body {
     background-color: #18181C;
+    position: relative; /* Make the body a positioned container */
  /*
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
 */
-    
     font-family: 'cursive_font', cursive, sans-serif;
     font-size: large;
     text-align: center;
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
 }
 
 .container {
     background-color: #f0f0f0; /* Background color of your box */
     padding: 20px; /* Add some padding to the content inside the box */
     border: 1px solid #ccc; /* Add a border around the box */
-    width: 80%; /* Adjust the width as needed */
-    margin: 0 auto; /* Center the box horizontally on the page */
+    max-width: 800px; /* Set the maximum width for the container */
+    width: 100%; /* Make the container as wide as the viewport */
+    position: absolute; /* Position the container absolutely within the body */
+    top: 0; /* Align the container to the top */
+    bottom: 0; /* Align the container to the bottom */
+    left: 50px; /* Leave space on the left side */
+    right: 50px; /* Leave space on the right side */
+    margin: auto; /* Center the container horizontally within the body */
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2); /* Add a shadow to the box */
 }
+
+
 
 .slm { 
     color: white;
