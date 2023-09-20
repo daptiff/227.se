@@ -10,19 +10,19 @@
     font-family: font4;
     src: url(../resources/fonts/tahomaregular.ttf);
 }
-
-a.topTitle {
-    padding:125px;
-}
 .topTitle {
 
     padding: 125px;
     font-family: font2;
-    font-size: 100%;
+    font-size: 200%;
     font-style: italic;
     text-align: center;
     color:#9a0104;
     text-decoration: none;
+}
+.aTitle {
+    text-decoration: none;
+
 }
 @media (max-width: 767px) {
     .topTitle {
