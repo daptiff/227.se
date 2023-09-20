@@ -42,10 +42,13 @@ body {
 
 }
 .bLink {
-    /*font-family: font3;*/
     color: #9a0104;
     font-size: 120%;
 }
+.bLink:hover {
+    font-style: italic;
+}
+
 .catalogList {
     padding: 10px; 
 }
