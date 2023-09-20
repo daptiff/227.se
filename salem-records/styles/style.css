@@ -8,11 +8,24 @@
     src: url(../resources/fonts/ChopinScript.ttf);
 }
 
+@font-face {
+    font-family: font4;
+    src: url(../resources/fonts/tahomaregular.ttf);
+}
+
+@media (max-width: 767px) {
+    .topTitle {
+        padding: 70px;
+    }
+}
+
 .topTitle {
+    padding: 125px;
     font-family: font2;
-    font-size: 500%;
+    font-size: 200%;
     font-style: italic;
 }
+
 
 html, body {
     height: 100%;
@@ -30,28 +43,36 @@ body {
 }
 
 .bLink {
-    font-family: font3;
+    font-family: font4;
     color: #9a0104;
     text-decoration: none;
-    font-size: 200%;
+    /*font-size: 120%;*/
 }
 
-.bLink::before,
-.bLink::after {
+.bLink:hover {
+    font-style: italic;
+}
+
+
+
+
+
+.bLink::before
+/*.bLink::after*/ {
     content: '';
     opacity: 0;
     transition: opacity 1ms;
 }
 
 .bLink::before {
-    content: '#';
+    content: '✰';
     margin-right: 5px;
 }
 
-.bLink:after {
-    content: '#';
+/*.bLink:after {
+    content: '';
     margin-left: 5px;
-}
+}*/
 
 .bLink:hover::before,
 .bLink:hover::after {
