@@ -14,8 +14,7 @@
     font-style: italic;
 }
 
-html,
-body {
+html, body {
     height: 100%;
     margin: 0;
     padding: 0;
@@ -26,6 +25,7 @@ body {
     background: rgb(254, 215, 176);
     background: linear-gradient(180deg, rgba(254, 215, 176, 1) 0%, rgba(255, 242, 230, 1) 35%);
     color: #9a0104;
+    overflow:hidden;
 }
 
 .bLink {
