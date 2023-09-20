@@ -23,6 +23,7 @@ body {
     font-family: font3;
     color: #9a0104;
     text-decoration: none;
+    font-size: 200%;
 }
 
 .bLink::before,
