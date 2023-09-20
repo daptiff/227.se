@@ -11,3 +11,8 @@ body {
     font-family: font1;
     src: url(../resources/STYLEWARS\ 2011.ttf);
 }
+
+@font-face {
+    font-family: font2_1;
+    src: url(../salem-records/resources/fonts/ChopinScript.ttf);
+}
