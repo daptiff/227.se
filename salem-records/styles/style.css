@@ -2,78 +2,62 @@
     font-family: font2;
     src: url(../resources/fonts/tahomabd.ttf);
 }
-
 @font-face {
     font-family: font3;
     src: url(../resources/fonts/ChopinScript.ttf);
 }
-
 @font-face {
     font-family: font4;
     src: url(../resources/fonts/tahomaregular.ttf);
 }
+.topTitle {
 
+    padding: 125px;
+    font-family: font2;
+    font-size: 200%;
+    font-style: italic;
+    text-align: center;
+}
 @media (max-width: 767px) {
     .topTitle {
         padding: 70px;
     }
 }
-
-.topTitle {
-    padding: 125px;
-    font-family: font2;
-    font-size: 200%;
-    font-style: italic;
-}
-
-
 html, body {
     height: 100%;
     margin: 0;
     padding: 0;
     overflow: hidden;
 }
-
-
 body {
     background: rgb(254, 215, 176);
     background: linear-gradient(180deg, rgba(254, 215, 176, 1) 0%, rgba(255, 242, 230, 1) 35%);
     color: #9a0104;
 
 }
-
 .bLink {
-    font-family: font4;
+    font-family: font3;
     color: #9a0104;
     text-decoration: none;
-    /*font-size: 120%;*/
+    font-size: 120%;
 }
-
 .bLink:hover {
     font-style: italic;
 }
-
-
-
-
-
 .bLink::before
 /*.bLink::after*/ {
     content: '';
     opacity: 0;
     transition: opacity 1ms;
 }
-
 .bLink::before {
     content: '✰';
     margin-right: 5px;
 }
-
 /*.bLink:after {
     content: '';
     margin-left: 5px;
 }*/
-
 .bLink:hover::before,
 .bLink:hover::after {
     text-decoration: none;
