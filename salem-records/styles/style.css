@@ -3,9 +3,15 @@
     src: url(../resources/fonts/tahomabd.ttf);
 }
 
+@font-face {
+    font-family: font3;
+    src: url(../resources/fonts/ChopinScript.ttf);
+}
+
 .topTitle {
     font-family: font2;
     font-size: 500%;
+    font-style: italic;
 }
 
 body {
@@ -14,6 +20,7 @@ body {
 }
 
 .bLink {
+    font-family: font3;
     color: #9a0104;
     text-decoration: none;
 }
