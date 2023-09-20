@@ -41,25 +41,3 @@ body {
     text-decoration: none;
     font-size: 120%;
 }
-.bLink:hover {
-    font-style: italic;
-}
-.bLink::before
-/*.bLink::after*/ {
-    content: '';
-    opacity: 0;
-    transition: opacity 1ms;
-}
-.bLink::before {
-    content: '✰';
-    margin-right: 5px;
-}
-/*.bLink:after {
-    content: '';
-    margin-left: 5px;
-}*/
-.bLink:hover::before,
-.bLink:hover::after {
-    text-decoration: none;
-    opacity: 1;
-}
