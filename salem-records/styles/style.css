@@ -34,12 +34,12 @@ body {
 }
 
 .bLink::before {
-    content: '>';
+    content: '#';
     margin-right: 5px;
 }
 
 .bLink:after {
-    content: '<';
+    content: '#';
     margin-left: 5px;
 }
 
