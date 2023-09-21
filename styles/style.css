@@ -5,6 +5,11 @@ a:hover {
 .portal:hover {
     font-family: "font1";
 }
+.gif1 {
+    position: fixed;
+
+}
+
 body {
     background-color: rgb(#FAF9F6);
     padding: 25px;
