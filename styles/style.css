@@ -10,10 +10,10 @@ a:hover {
 
 }
 
-body {
+html, body {
     background-color: rgb(#FAF9F6);
     padding: 25px;
-    padding-bottom: 50px;
+    padding-bottom: 100px;
 }
 @font-face {
     font-family: font1;
