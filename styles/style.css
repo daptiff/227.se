@@ -7,6 +7,8 @@ a:hover {
 }
 body {
     /*background-color: rgb(#FAF9F6);*/
+    padding: 25px;
+    padding-bottom: 50px;
 
     background: rgb(255,255,255);
     background: linear-gradient(90deg, rgba(255,255,255,1) 35%, rgba(216,248,255,1) 70%, rgba(255,255,255,1) 100%);
