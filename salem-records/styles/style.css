@@ -12,7 +12,8 @@
 }
 .topTitle {
 
-    padding: 125px;
+    padding-top: 125px;
+    padding-bottom: 125px;
     font-family: font2;
     font-size: 200%;
     font-style: italic;
