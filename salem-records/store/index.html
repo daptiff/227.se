@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title> salem records ✰ store</title>
+    <link rel="icon" href="../resources/fonts/images/icon.png">
+    <link rel="stylesheet" href="../styles/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <style>
+        .item-grid {
+            display: grid;
+            grid-template-columns: repeat(1, 1fr); /*1-> nr of rows*/
+            gap: 20px;
+ 
+        }
+        .item {
+            padding: 20px;
+            text-align: center;
+        }
+        .card1 {
+                
+                width: 200px;
+                height: 200px;
+                background: url("../resources/images/freeware_cd.png") no-repeat;
+                background-size: 200px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                margin: 0 auto;
+                }
+            .card1:hover {
+                background: url("../resources/images/freeware_cd_b.png") no-repeat;
+                background-size: 200px;
+                width: 200px;
+                height: 200px;
+            }
+            /*
+            .item.u-a {
+            display: none;
+            }   
+            */
+            .item-grid .item u-a {
+                display: none;
+            }
+
+            /* Use the :checked pseudo-class to show unavailable items when the checkbox is checked */
+            #availabilitySwitch:checked + label + .item-grid .item u-a {
+                display: block;
+            }
+    </style>
+
+    <script>
+    /*
+        document.addEventListener("DOMContentLoaded", function () {
+            const availabilitySwitch = document.getElementById("availabilitySwitch");
+
+            availabilitySwitch.addEventListener("change", function () {
+                const itemsToToggle = document.querySelectorAll(".item.u-a");
+
+                itemsToToggle.forEach(item => {
+                    item.style.display = availabilitySwitch.checked ? "block" : "none";
+                });
+            });
+        });
+    */
+    </script>
+    </head>
+
+<body style="text-align: center;">
+
+    <div>
+
+        <a href="../index.html" class="aTitle">
+            <h1 class="topTitle">store</h1>
+        </a>
+
+    </div>
+
+<!--
+    <input type="checkbox" id="availabilitySwitch">
+    <label for="availabilitySwitch">show unavailable items</label>
+-->
+
+
+    <div class="item-grid">
+        <div class="item u-a">
+            <div class="card1"></div>
+            <p><a href="item/SLM-001.html" class="underTxtLink">[slm-01] compact-disc</a></p>
+            <p class="underTxt2">10 EUR + shipping <text class="soldOut" style="font-size: 90%;">(sold out)</text></p>
+
+        </div>
+        <!--<div class="item">
+
+        </div>
+        <div class="item">
+
+        </div>
+
+    </div> -->
+</body>
+
+</html>
