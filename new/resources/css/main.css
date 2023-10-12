@@ -1,0 +1,140 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.toplogo {
+    padding-top: 1.75cm;
+    padding-bottom: 1.5cm;
+}
+a:link, a:visited {
+    color: blue;
+}
+
+/* AD SPACE CSS*/
+    @media (max-width: 768px) {
+        .vertical-banner, .left-banner, .right-banner {
+            display: none;
+        }
+    }
+
+    .vertical-banner {
+        background-color: white;
+        border: 1px solid #ccc;
+        width: 8%;
+        height: 80%;
+        position: fixed;
+        top: 40%;
+        text-align: center;
+        transform: translateY(-40%);
+    }
+    
+    .left-banner {
+        left: 2.5%;
+    }
+    
+    .right-banner {
+        right: 2.5%;
+    }
+    .banner-box-title {
+        background-color: #bfd0ff;
+        color: black;
+        padding-bottom: 0px;
+        position: relative;
+        text-align: left;
+        padding-left: 5px;
+    }
+    i.bypass {
+        font-style: normal;
+    }
+    
+
+
+/* INFO BOX CSS */
+    .info-box {
+        max-width: 90%;
+        width: fit-content;
+        margin: auto;
+        margin-bottom: 1cm;
+        border: 1px solid #ccc;
+        top: 20px;
+    }
+    @media (min-width: 768px) {
+        .info-box {
+            max-width: 30%;
+        }
+    }
+    .info-box-title {
+        background-color: #bfd0ff;
+        color: black;
+        padding-bottom: 0px;
+        position: relative;
+        text-align: left;
+        padding-left: 5px;
+    }
+    .info-box-content {
+        padding: 2px;
+    }
+    .close-button {
+        position: absolute;
+        top: -3px;
+        right: 2px;
+        cursor: pointer;
+    }
+
+
+/*LINK BOX CSS*/
+    .info-box-2 {
+        max-width: 80%;
+        width: 200px;
+        margin: auto;
+        margin-bottom: 1cm;
+        border: 1px solid #ccc;
+        top: 20px;
+    }
+    .linklist {
+        text-align: left;
+        margin-left: 5mm;
+    }
+    /* SUBLINKS */
+        .hidden-1,
+        .hidden-2,
+        .hidden-3 {
+            display: none;
+            list-style: none;
+            text-align: left;
+        }
+        .show-sublinks {
+            cursor: pointer;
+            color: blue;
+            text-decoration: none;
+        }        
+        .show-sublinks::before {
+            content: "+";
+            /*margin-right: 5px;*/
+        }
+
+/* LINK DOT */
+    .gdot,.rdot {
+        display: inline-block;
+        vertical-align: left; /* Adjust alignment as needed (middle, top, etc.) */
+        margin-left: 5px; /* Add space between the link and the dots */
+    }
+
+    .rdot {
+
+        color: red; /* Change to green or any other color */
+    }
+    .gdot {
+
+        color: green; /* Change to green or any other color */
+    }
+
+/* FOOTER ETC */
+    .footer {
+        font-style: italic;
+        font-size: 0.8em;
+    }
+
+
