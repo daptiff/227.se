@@ -18,7 +18,7 @@ a:link, a:visited {
         }
     }
 
-    .vertical-ad {
+    .vertical-banner {
         background-color: white;
         border: 1px solid #ccc;
         width: 8%;
@@ -29,14 +29,14 @@ a:link, a:visited {
         transform: translateY(-40%);
     }
     
-    .left-ad {
+    .left-banner {
         left: 2.5%;
     }
     
-    .right-ad {
+    .right-banner {
         right: 2.5%;
     }
-    .ad-box-title {
+    .banner-box-title {
         background-color: #bfd0ff;
         color: black;
         padding-bottom: 0px;
