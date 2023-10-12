@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="resources/css/main.css">
+        <script>
+            function closeBannerBox(className) {
+                var bannerBox = document.querySelector('.' + className);
+                if (bannerBox) {
+                    bannerBox.style.display = 'none';
+                }
+            }
+        </script>
+</head>
+
+<body>
+    <div class="vertical-banner left-banner">
+        <div class="banner-box-title">
+            <i class="bypass">Banner</i>
+            <span class="close-button" onclick="closeBannerBox('left-banner')">&#10006;</span>
+        </div>
+
+    </div>
+
+    <div class="main">
+        <img class="toplogo" src="resources/images/logo_main.jpg" width="320">
+
+        <div class="info-box">
+            <div class="info-box-title">
+                Latest
+                <span class="close-button" onclick="closeBannerBox('info-box')">&#10006;</span>
+            </div>
+            <div class="info-box-content">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus sed mi et arcu consectetur gravida. Aliquam blandit tempus ante, auctor convallis massa aliquet at. Sed.
+            </div>
+        </div>
+
+        <div class="info-box-2">
+            <div class="info-box-title">
+                Links
+            </div>
+
+            <div class="linklist">
+                <p>
+                    <a href="salem-records/index.html">/ salem-records ©</a><a class="gdot">●</a>
+                </p>
+                <p>
+                    <a href="hatse/index.html">/ hatse</a><a class="gdot">●</a>
+                </p>
+                <p>
+                    <a href="404.html">/ slf-radio 24/7</a><a class="rdot">●</a>
+                </p>
+            </div>
+        </div>
+
+        <footer class="footer">
+            test
+        </footer>
+
+        <div class="vertical-banner right-banner">
+            <div class="banner-box-title">
+                Banner
+                <span class="close-button" onclick="closeBannerBox('right-banner')">&#10006;</span>
+        </div>
+
+</body>
+
+</html>
