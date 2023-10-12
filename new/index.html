@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="resources/css/main.css">
+        <script>
+            function closeAdBox(className) {
+                var adBox = document.querySelector('.' + className);
+                if (adBox) {
+                    adBox.style.display = 'none';
+                }
+            }
+        </script>
+</head>
+
+<body>
+    <div class="vertical-ad left-ad">
+        <div class="ad-box-title">
+            <i class="bypass">Ad</i>
+            <span class="close-button" onclick="closeAdBox('left-ad')">&#10006;</span>
+        </div>
+
+    </div>
+
+    <div class="main">
+        <img class="toplogo" src="resources/images/logo_main.jpg" width="320">
+
+        <div class="info-box">
+            <div class="info-box-title">
+                Latest
+                <span class="close-button" onclick="closeAdBox('info-box')">&#10006;</span>
+            </div>
+            <div class="info-box-content">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus sed mi et arcu consectetur gravida. Aliquam blandit tempus ante, auctor convallis massa aliquet at. Sed.
+            </div>
+        </div>
+
+        <div class="info-box-2">
+            <div class="info-box-title">
+                Links
+            </div>
+
+            <div class="linklist">
+                <p>
+                    <a href="salem-records/index.html">/ salem-records ©</a><a class="gdot">●</a>
+                </p>
+                <p>
+                    <a href="hatse/index.html">/ hatse</a><a class="gdot">●</a>
+                </p>
+                <p>
+                    <a href="404.html">/ slf-radio 24/7</a><a class="rdot">●</a>
+                </p>
+            </div>
+        </div>
+
+        <footer class="footer">
+            test
+        </footer>
+
+        <div class="vertical-ad right-ad">
+            <div class="ad-box-title">
+                Ad
+                <span class="close-button" onclick="closeAdBox('right-ad')">&#10006;</span>
+        </div>
+
+</body>
+
+</html>
