@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title> salem records ✰ index</title>
+    <link rel="icon" href="resources/fonts/images/icon.png">
+    <link rel="stylesheet" href="styles/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <style>
+        body,html {
+            overflow:hidden;
+        }
+
+        .container {
+            text-align: center;
+        }
+        
+        .hidden-links {
+            display: none;
+        }
+        
+        a {
+            margin: 5px;
+            padding: 5px 10px;
+        }
+        .bLink:hover {
+            font-style: italic;
+        }
+        </style>
+
+
+</head>
+
+<body style="text-align: center;">
+
+    <div>
+
+        <a href="#" class="aTitle"><h1 class="topTitle">salem✰records</h1></a>
+
+    </div>
+
+    <div>
+        <div class="container">
+            <a href="#" id="toggleButton" class="bLink">catalog</a>
+            <div class="hidden-links" id="hiddenLinks">
+                <a href="catalog/physical.html" class="bLink2">physical catalog</a>
+                <br>
+                <a href="catalog/digital.html" class="bLink2">digital catalog</a>
+                <br>
+                
+        </div>
+        <br><br>
+        <a href="store/index.html" class="bLink">store</a>
+        <br><br>
+        <a href="contact/index.html" class="bLink">contact</a>
+    </div>
+        <script>
+            document.addEventListener("DOMContentLoaded", function () {
+            const toggleButton = document.getElementById("toggleButton");
+            const hiddenLinks = document.getElementById("hiddenLinks");
+        
+            toggleButton.addEventListener("click", function (e) {
+                e.preventDefault();
+                if (hiddenLinks.style.display === "none" || hiddenLinks.style.display === "") {
+                    hiddenLinks.style.display = "block";
+                } else {
+                    hiddenLinks.style.display = "none";
+                }
+            });
+        });
+        
+        </script>
+
+
+</body>
+
+</html>
