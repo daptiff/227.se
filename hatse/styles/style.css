@@ -1,0 +1,24 @@
+@font-face {
+    font-family: font1;
+    src: url(../resources/STYLEWARS\ 2011.ttf);
+}
+@font-face {
+    font-family: font2_1;
+    src: url(../salem-records/resources/fonts/ChopinScript.ttf);
+}
+
+html, body {
+    background-color: rgb(#FAF9F6);
+    /* padding: 25px; */
+    padding-bottom: 100px;
+}
+a:hover {
+    font-family: "font1";
+}
+
+.topGif {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 0px;
+}
