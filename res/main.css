@@ -1,0 +1,187 @@
+html {
+    background-image: url(background.jpg);
+    background-size: cover; /* Cover the entire viewport */
+    background-position: center center; /* Center the background image */
+    background-attachment: fixed; /* Fixed background position */
+    background-repeat: no-repeat; /* Prevent background from repeating */
+}
+.title-wrap a {
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    color: red;
+    font-size: 250%;
+    margin: 40px 0px 40px 0px;
+}
+.navbar-wrap{
+    margin: 0.75em 0em 0.75em 0em;
+    display: flex;
+    justify-content: center;
+}
+.navbar {
+    color: red;
+    display: inline-block;
+    list-style: none;
+    text-align: center;
+    word-spacing: 5px;
+}
+.navbar a {
+    color: red;
+    text-decoration: none;
+}
+.content-wrap {
+    margin: 5em 2em 0em 2em;
+    display: flex;
+    justify-content: center;
+}
+.justified {
+    display: flex;
+    justify-content: center;
+}
+
+/*FORUM CSS*/
+.main-content-posts {
+    font-size: 100%;
+    height: fit-content;
+    background-color: rgba(255, 245, 245, 1);
+    border-radius: 2px;
+    border: 2px outset darkgrey;
+    padding: 10px 14px 10px 10px;
+    margin: 8px;
+    margin-top: 20px;
+    justify-content: left;
+}
+@media (min-width: 768px) {
+    .main-content-posts {
+        width: 30%;
+    }
+}
+@media (max-width: 767px) {
+    .main-content-posts {
+        width: 95%;
+    }
+}
+.forum-post {
+    width: 100%;
+    border-radius: 2px;
+    border: 2px inset darkgrey;
+    background-color: #ebe9e9;
+    margin-bottom: 8px;
+}
+.forum-post-title {
+    margin: 5px 0px 5px 10px;
+    color: rgba(67,68,71,1);
+    font-weight: bold;
+    font-size: 95%;
+}
+.forum-post-image-container {
+    width: min-content;
+    margin: 0px 0px 2px 10px;
+    text-align: center;
+}
+.forum-post-image {
+    margin-bottom: -10px
+}
+.forum-post-image-caption {
+    font-size: 80%;
+    font-style: italic;
+    color: rgba(67,68,71,1);
+}
+.forum-post-contents {
+    display:flex;
+}
+.forum-post-text {
+    font-size: 90%;
+    margin-left: 10px;
+    color: rgba(67,68,71,1);
+    word-wrap: break-word;
+    overflow:hidden;
+}
+
+/*STORE CSS*/
+.store-wrap {
+    display: flex;
+    flex-wrap: wrap; /* Allow items to wrap to the next row */
+    justify-content: center;
+}
+.store-wrap-2 {
+    margin: 2em 0em 0em 0em;
+    display: flex;
+    justify-content: center;
+}
+.store-item {
+    width: 100%; /* One item per row on mobile */
+    margin: 0.5em;
+    padding: 1em;
+    text-align: center;
+    overflow: hidden;
+}
+.store-item img {
+    max-width: 100%;
+    height: auto;
+}
+.store-item-title {
+    font-size: 1rem;
+    font-weight: bold;
+    color:red;
+}
+.store-item-desc {
+    font-size: 0.8rem;
+    font-style: italic;
+    color:red;
+}
+.store-item a {
+    color:red;
+}
+.store-item a:hover {
+    font-style: italic;
+}
+
+/*ARCHIVE CSS*/
+.archive-window {
+    width:auto;
+}
+.archive-title0{
+    color:red;
+    text-align: center;
+    font-weight: 300;
+    font-size: 2em;
+    margin: 0px 0px 40px 0px
+
+}
+.archive-title {
+    text-align: center;
+    color: red;
+    font-size: 120%;
+    margin: 0px 0px 0px 0px;
+    font-weight: bold;
+}
+.archive-subtitle {
+    text-align: center;
+    color: red;
+    font-size: 100%;
+    margin-top: 30px;
+}
+.archive-links {
+    display: flex;
+    justify-content: center;
+}
+.archive-links a {
+    margin: 0px 5px 20px 5px;
+    white-space: nowrap;
+    flex: 1; 
+    text-align: center;
+    color: red;
+}
+.footer {
+    display: flex;
+    justify-content: center;
+}
+.footer a {
+    font-size: 80%;
+    margin: 40px 5px 20px 5px;
+    white-space: nowrap;
+    flex: 1; 
+    text-align: center;
+    color: red;
+}
