@@ -178,12 +178,15 @@ html {
     justify-content: center;
 }
 .footer a {
-    font-size: 80%;
-    margin: 40px 5px 20px 5px;
+    font-size: 90%;
+    font-style: italic;
+    margin: 0px 5px 0px 5px;
     white-space: nowrap;
     flex: 1; 
     text-align: center;
     color: red;
+    text-decoration: none;
+
 }
 
 .banner{
