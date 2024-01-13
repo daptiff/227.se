@@ -1,0 +1,162 @@
+html {
+    background-image: url(background.jpg);
+    background-size: cover; /* Cover the entire viewport */
+    background-position: center center; /* Center the background image */
+    background-attachment: fixed; /* Fixed background position */
+    background-repeat: no-repeat; /* Prevent background from repeating */
+}
+.title-wrap a {
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    color: red;
+    font-size: 250%;
+    margin: 40px 0px 40px 0px;
+}
+.navbar-wrap{
+    margin: 0.75em 0em 0.75em 0em;
+    display: flex;
+    justify-content: center;
+}
+.navbar {
+    color: red;
+    display: inline-block;
+    list-style: none;
+    text-align: center;
+    word-spacing: 5px;
+}
+.navbar a {
+    color: red;
+    text-decoration: none;
+}
+.content-wrap {
+    margin: 5em 2em 0em 2em;
+    display: flex;
+    justify-content: center;
+}
+.justified {
+    display: flex;
+    justify-content: center;
+}
+
+/*STORE CSS*/
+.toggleSwitch {
+    text-align: center;
+    margin: 4em 0em -2em 0em;
+}
+
+.toggleSwitch a {
+    text-decoration: none;
+    cursor: pointer;
+    color: red;
+    margin: 0;
+    font-size: 0.8em;
+}
+.store-wrap {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.store-wrap-2 {
+    margin: 2em 0em 0em 0em;
+    display: flex;
+    justify-content: center;
+}
+.store-item,.store-item-unavailable {
+    width: 100%;
+    margin: 0.5em;
+    padding: 1em;
+    text-align: center;
+    overflow: hidden;
+}
+/*.store-item-unavailable{
+    width: 100%;
+    margin: 0.5em;
+    padding: 1em;
+    text-align: center;
+    overflow: hidden;
+}*/
+.store-item img {
+    max-width: 100%;
+    height: auto;
+}
+.store-item-title {
+    font-size: 1rem;
+    font-weight: bold;
+    color:red;
+}
+.store-item-desc {
+    font-size: 0.8rem;
+    font-style: italic;
+    color:red;
+}
+.store-item-desc-2 {
+    font-size: 0.6rem;
+    color:red;
+    margin-top: 0em;
+}
+.store-item a,.store-item-unavailable a {
+    color:red;
+}
+.store-item a:hover, .store-item-unavailable a:hover {
+    font-style: italic;
+}
+
+/*ARCHIVE CSS*/
+.archive-window {
+    width:auto;
+}
+.archive-title0{
+    color:red;
+    text-align: center;
+    font-weight: 300;
+    font-size: 2em;
+    margin: 0px 0px 40px 0px
+
+}
+.archive-title {
+    text-align: center;
+    color: red;
+    font-size: 120%;
+    margin: 0px 0px 0px 0px;
+    font-weight: bold;
+}
+.archive-subtitle {
+    text-align: center;
+    color: red;
+    font-size: 100%;
+    margin-top: 30px;
+}
+.archive-links {
+    display: flex;
+    justify-content: center;
+}
+.archive-links a {
+    margin: 0px 5px 20px 5px;
+    white-space: nowrap;
+    flex: 1; 
+    text-align: center;
+    color: red;
+}
+.footer {
+    display: flex;
+    justify-content: center;
+}
+.footer a {
+    font-size: 90%;
+    font-style: italic;
+    margin: 0px 5px 0px 5px;
+    white-space: nowrap;
+    flex: 1; 
+    text-align: center;
+    color: red;
+    text-decoration: none;
+
+}
+
+.banner{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+
+}
