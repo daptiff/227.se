@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>selflessness.online</title>
+    <link rel="icon" type="image/x-icon" href="/res/favicon.png">
+    <link rel="stylesheet" href="res/main.css">
+    <script src="res/content.js" defer></script>
+</head>
+
+<body>
+    <div class="topTitle">
+        <p class="title-wrap">
+            <a href="index.html">selflessness.online</a>
+        </p>
+        <div class="scrollWrap">
+            <div class="scrollText">   
+                
+            </div>
+        </div>
+    </div>
+
+    <div class="navbar-wrap">
+        <div class="navbar">
+            /
+            <a href="index.html">home</a> /
+            <a href="store.html">store</a> /
+            <a href="archive.html">archive</a> /
+
+        </div>
+    </div>
+
+
+    <div class="teamListContainer">
+        <div class="teamList">
+            <ul>
+                <li>
+                    <img src="res/deafult_o_O.png">
+                    <a href="https://soundcloud.com/djselflessness" style="text-decoration: none;">
+                        <span class="profile-name" id="span1"></span>
+                    </a>
+                </li>
+                <li>
+                    <img src="res/deafult_o_O.png">
+                    <span class="profile-name" id="span2"></span>
+                </li>
+                <li>
+                    <img src="res/deafult_o_O.png">
+                    <span class="profile-name" id="span3"></span>
+                </li>
+                <li>
+                    <img src="res/deafult_o_O.png">
+                    <a href="https://www.youtube.com/@mkultramuney" style="text-decoration: none;">
+                        <span class="profile-name" id="span4"></span>
+                    </a>
+                </li>
+                <li>
+                    <br><br><br>
+                    <span class="profile-name" id="span5">@@@@@@@@@@</span>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="social_media_icons">
+        <a href="https://twitter.com/fortodaynothing">
+            <img src="res/twitter_icon.png" height="30px">
+        </a>
+        <a href="https://soundcloud.com/djselflessness">
+            <img src="res/soundcloud_icon.png" height="30px">
+        </a>
+    </div>
+
+
+
+    <div class="bottomFooterReal">
+        <div class="bottomFooter">
+            <i>©2024 selflessness.online<br>
+                <small><i> selflessness.online, Salem Records and SALEM® are either registered trademarks or
+                        trademarks of Selflessness Corporation.</i></small>
+            </i>
+            <p><i>HTML Webpage designed by "<a href="team.html">yourzTruly</a>" ©
+                    2019-2024</i><br>
+
+            </p>
+        </div>
+        <div style="text-align: center;">
+            <div style="display: inline-block; margin-right: 10px;">
+                <a href="https://salemrecords.bandcamp.com/">
+                    <img src="res/salemrecs2.jpg">
+                </a>
+            </div>
+            <div style="display: inline-block; margin-right: 10px;">
+                <a href="https://www.selflessness.online">
+                    <img width="143" height="36" src="res/ddvert3.jpg">
+                </a>
+            </div>
+            <div style="display: inline-block;">
+                <a href="https://self.bigcartel.com">
+                    <img src="res/ddvert2.jpg">
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+    
+            const spanIds = ["span1", "span2", "span3", "span4"];
+            const valuesArray = [
+                ["hatse", "ǝsʇɐɥ","@82dk7a", "@fortodaynothing"],
+                ["ԃʝ ʂҽʅϝʅҽʂʂɳҽʂʂ", "๔ן รєɭŦɭєรรภєรร"],
+                ["yourz𝒯rulyy", "ყσυɾȥTɾυʅყ"],
+                ["ʍӄʊʟȶʀǟʍʊռɛʏ", "๓kนltrค๓นຖēฯ","@mkultramuney"]
+            ];
+            const intervals = [1012, 953, 1050, 910]; // Adjust intervals for each span
+    
+            const spans = spanIds.map(id => document.getElementById(id));
+            const currentIndexArray = new Array(spans.length).fill(0);
+    
+            function updateSpan(index) {
+                spans[index].textContent = valuesArray[index][currentIndexArray[index]];
+                currentIndexArray[index] = (currentIndexArray[index] + 1) % valuesArray[index].length;
+            }
+    
+            spans.forEach((span, index) => {
+                setInterval(() => updateSpan(index), intervals[index]);
+                updateSpan(index);
+            });
+        });
+    </script>
+</body>
+
+</html>

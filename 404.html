@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>selflessness.online</title>
+    <link rel="icon" type="image/x-icon" href="/res/favicon.png">
+    <link rel="stylesheet" href="res/main.css">
+    <script src="res/content.js" defer></script>
+</head>
+
+<body>
+    <div>
+        <p class="title-wrap">
+            <a href="index.html">selflessness.online</a>
+        </p>
+        <div class="scrollWrap">
+            <div class="scrollText">   
+                
+            </div>
+        </div>
+    </div>
+
+    <div class="navbar-wrap">
+        <div class="navbar">
+            /
+            <a href="index.html">home</a> /
+            <a href="store.html">store</a> /
+            <a href="archive.html">archive</a> /
+
+        </div>
+    </div>
+
+    <div class="content-wrap">
+        <div class="content">
+            <img src="res/404 anim.gif" width="370px">
+        </div>
+    </div>
+    <p class="caption_cs">
+        <span id="cyclingSpan"></span>
+        <a class="caption_cs" href="index.html">back 2 safety..</a>
+    </p>
+
+    <div class="bottomFooterReal">
+        <div class="bottomFooter">
+            <i>©2024 selflessness.online<br>
+                <small><i> selflessness.online, Salem Records and SALEM® are either registered trademarks or
+                        trademarks of Selflessness Corporation.</i></small>
+            </i>
+            <p><i>HTML Webpage designed by "<a href="team.html">yourzTruly</a>" ©
+                    2019-2024</i><br>
+
+            </p>
+        </div>
+        <div style="text-align: center;">
+            <div style="display: inline-block; margin-right: 10px;">
+                <a href="https://salemrecords.bandcamp.com/">
+                    <img src="res/salemrecs2.jpg">
+                </a>
+            </div>
+            <div style="display: inline-block; margin-right: 10px;">
+                <a href="https://www.selflessness.online">
+                    <img width="143" height="36" src="res/ddvert3.jpg">
+                </a>
+            </div>
+            <div style="display: inline-block;">
+                <a href="https://self.bigcartel.com">
+                    <img src="res/ddvert2.jpg">
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+
+            const cyclingSpan = document.getElementById('cyclingSpan');
+
+            const values = ["->", "-->"];
+
+            let currentIndex = 0;
+
+            function updateSpan() {
+                cyclingSpan.textContent = values[currentIndex];
+                currentIndex = (currentIndex + 1) % values.length;
+            }
+
+            setInterval(updateSpan, 1000);
+
+            updateSpan();
+        });
+    </script>
+
+</body>
+
+</html>
