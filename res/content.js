@@ -46,8 +46,6 @@ var names = [
 ];
 
 document.title = "SELFLESSNESS.ONLINE"
-var favicon = document.querySelector("link[rel='icon']");
-favicon.href = "favicon.jpg"
 
 function changeTitle() {
     var index = 0;
@@ -57,8 +55,6 @@ function changeTitle() {
         index = (index + 1) % names.length;
     }, 900);
 }
-
-
   changeTitle();
 
 
