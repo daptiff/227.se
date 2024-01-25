@@ -49,7 +49,7 @@ function changeTitle() {
     setInterval(function () {
         document.title = names[index];
         index = (index + 1) % names.length;
-    }, 900);
+    }, 1500);
 }
   changeTitle();
 
