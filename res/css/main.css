@@ -18,6 +18,9 @@ font[size="-3"] {
 a {
     color: blue;
 }
+a:hover{
+    text-shadow: 1px 1px 2px white, 0 0 1em white, 0 0 0.1em blue;
+}
 
 
 /* TOP TITLE CSS */
@@ -93,24 +96,49 @@ a {
 }
 
 /* INDEX MAIN CONTENT CSS */
+
 .content-wrap {
     margin: 4em 2em 0em 2em;
     display: flex;
     justify-content: center;
+    position: relative;
 }
 
+.label {
+    position: absolute;
+    bottom: 3px;
+    right: -10px;
+    transform: rotate(-20deg);
+    color: #fff;
+    overflow: hidden;
+    z-index: 1;
+    display: grid;
+}
+
+.label span {
+    color: red;
+    font-size: 200%;
+    font-weight: bold;
+    font-family: "Comic Sans MS", "Comic Sans";
+}
+
+.content {
+    position: relative;
+}
+
+.content {
+    position: relative;
+}
 .caption_cs {
     margin: 0px;
     text-align: center;
     font-family: "Comic Sans MS", "Comic Sans";
     color: blue;
 }
-
 .content-wrap2 a {
     color: blue;
     font-size: 110%;
 }
-
 .justified {
     display: flex;
     justify-content: center;
@@ -119,13 +147,14 @@ a {
 .linkList{
     font-size: 150%;
     font-style: italic;
-    width: 320px;
+    height: 85px;
+    text-align: center;
+    width: 300px;
 }
-.linkList :hover{
+.linkList a:hover{
     font-family: "Comic Sans MS", "Comic Sans";
-
+    font-size: 87.5%;
 }
-
 /* STORE CSS */
 .toggleSwitch {
     text-align: center;
@@ -183,9 +212,9 @@ a {
 }
 
 .store-item-desc-2 {
-    font-size: 0.6rem;
+    font-size: 0.55rem;
     color: #151717;
-    margin-top: 0em;
+    margin: -0.5em 0 0 0;
 }
 
 .store-item a,
@@ -213,6 +242,7 @@ a {
     color: blue;
     text-decoration-line: underline;
     text-decoration-thickness: 0px;
+    float: left;
 }
 .archiveWrap{
     margin: 2em 0em 1em 0em;
@@ -230,7 +260,7 @@ a {
 }
 .downloadsBox{
     font-size: 95%;
-    width: 300px;
+    width: 275px;
 }
 .downloadsList a{
     text-decoration-line: underline;
