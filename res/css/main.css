@@ -21,7 +21,10 @@ a {
 a:hover{
     text-shadow: 1px 1px 2px white, 0 0 1em white, 0 0 0.1em blue;
 }
-
+@font-face {
+    font-family: stylewars;
+    src: url(../font/STYLEWARS\ 2011.ttf);
+}
 
 /* TOP TITLE CSS */
 .topTitle{
@@ -256,7 +259,8 @@ a:hover{
     font-size: 120%;
     color: blue;
     margin-bottom: 0.25em;
-    font-weight: bold;
+    font-weight: 800;
+    font-family: stylewars;
 }
 .downloadsBox{
     font-size: 95%;
