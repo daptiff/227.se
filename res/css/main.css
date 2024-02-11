@@ -256,19 +256,24 @@ a:hover{
 }
 .archiveTitle{
     text-align: center;
-    font-size: 120%;
+    font-size: 180%;
     color: blue;
     margin-bottom: 0.25em;
-    font-weight: 800;
     font-family: stylewars;
 }
 .downloadsBox{
     font-size: 95%;
-    width: 275px;
+    width: 340px;
 }
 .downloadsList a{
     text-decoration-line: underline;
     text-decoration-thickness: 0px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.downloadsList img{
+    margin: 0px 0px 0px 0px;
 }
 .downloadsList span{
     float: right;
