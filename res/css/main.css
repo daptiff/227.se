@@ -1,6 +1,5 @@
 html {
     background-image: url(../img/background.jpg);
-    /*background-image: url(../img/w7bg.jpg);*/
     background-size: cover;
     background-position: center center;
     background-attachment: fixed;
@@ -18,40 +17,26 @@ font[size="-3"] {
 a {
     color: blue;
 }
-
-a:hover {
+a:hover{
     text-shadow: 1px 1px 2px white, 0 0 1em white, 0 0 0.1em blue;
 }
-
 @font-face {
     font-family: stylewars;
     src: url(../font/STYLEWARS\ 2011.ttf);
 }
-
 @font-face {
     font-family: comic_sans;
-    src: url(../font/COMIC.TTF)
-}
-.win7 {
-    /*position: absolute;*/
-    width: auto;
-}
-.win7window {
-    margin: 0em 0em 2em 0em;
-}
-/* TOP TITLE CSS */
-.header{
-    margin: 1.25em 0em 0.5em 0em;
-}
-.topTitle {
-    width: auto;
+    src:url(../font/COMIC.TTF)
 }
 
-.title-wrap {
+/* TOP TITLE CSS */
+.topTitle{
+    width: auto;
+}
+.title-wrap{
     display: flex;
     justify-content: center;
 }
-
 .title-wrap a {
     text-decoration: none;
     display: flex;
@@ -63,7 +48,6 @@ a:hover {
     font-style: italic;
     width: fit-content;
 }
-
 /* TITLE SCROLL CSS */
 @keyframes scrollRight {
     0% {
@@ -89,7 +73,7 @@ a:hover {
     height: 12px;
     border-radius: 5px;
     font-size: 70%;
-    position: relative;
+    position:relative;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -99,7 +83,7 @@ a:hover {
 
 /* NAV BAR CSS */
 .navbar-wrap {
-    margin: 0.75em 0em 4em 0em;
+    margin: 0.75em 0em 0.75em 0em;
     display: flex;
     justify-content: center;
 }
@@ -120,11 +104,10 @@ a:hover {
 /* INDEX MAIN CONTENT CSS */
 
 .content-wrap {
-    /*margin: 4em 2em 0em 2em;*/
+    margin: 4em 2em 0em 2em;
     display: flex;
     justify-content: center;
     position: relative;
-    margin: -6px -6px -9px -6px;
 }
 
 .label {
@@ -152,37 +135,32 @@ a:hover {
 .content {
     position: relative;
 }
-
 .caption_cs {
     margin: 0px;
     text-align: center;
     font-family: comic_sans;
     color: blue;
 }
-
 .content-wrap2 a {
     color: blue;
     font-size: 110%;
 }
-
 .justified {
     display: flex;
     justify-content: center;
 }
 
-.linkList {
+.linkList{
     font-size: 150%;
     font-style: italic;
     height: 85px;
     text-align: center;
     width: 300px;
 }
-
-.linkList a:hover {
+.linkList a:hover{
     font-family: comic_sans;
     font-size: 87.5%;
 }
-
 /* STORE CSS */
 .toggleSwitch {
     text-align: center;
@@ -198,14 +176,13 @@ a:hover {
 }
 
 .store-wrap {
-    margin: 1em 0em 1em 0em;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
 }
 
 .store-wrap-2 {
-    /*margin: 2em 0em 0em 0em;*/
+    margin: 2em 0em 0em 0em;
     display: flex;
     justify-content: center;
 }
@@ -218,7 +195,6 @@ a:hover {
     text-align: center;
     overflow: hidden;
 }
-
 .store-item.unavailable {
     display: none;
 }
@@ -242,11 +218,9 @@ a:hover {
 }
 
 .store-item-desc-2 {
-    width: 135px;
-    text-align: center;
     font-size: 0.55rem;
     color: #151717;
-    /*margin: -0.5em 0 0 0;*/
+    margin: -0.5em 0 0 0;
 }
 
 .store-item a,
@@ -261,44 +235,59 @@ a:hover {
 }
 
 /* ARCHIVE CSS */
-.downloadstable{
-    margin: 0px 0px 15px 0px;
+.postLink {
+    font-size: 100%;
 }
-.filexplorer{
-    margin: -12.5px 0px 0px 0px;
+.postLink a {
+    font-size: 95%;
+    font-style: italic;
+    margin: 0px 5px 0px 5px;
+    white-space: nowrap;
+    flex: 1;
+    text-align: center;
+    color: blue;
+    text-decoration-line: underline;
+    text-decoration-thickness: 0px;
+    float: left;
 }
-.filetype {
-    margin: 0px 5px 0px 0px;
+.archiveWrap{
+    margin: 2em 0em 1em 0em;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
 }
-table {
-    width: 100%;
+.archiveTitle{
+    text-align: center;
+    font-size: 180%;
+    color: blue;
+    margin-bottom: 0.25em;
+    font-family: stylewars;
 }
-td {
+.downloadsBox{
+    font-size: 95%;
+    width: 340px;
+}
+.downloadsList a{
+    text-decoration-line: underline;
+    text-decoration-thickness: 0px;
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
-    box-sizing: border-box;
 }
-.column1 {
-    width: 37.5%;
+.downloadsList img{
+    margin: 0px 0px 0px 0px;
 }
-.column2 {
-    width: 25%;
+.downloadsList span{
+    float: right;
+    color: blue;
 }
-.column3 {
-    width: 20%;
-}
-.column4 .column4top {
-    width: 20%;
-}
-.column4 {
-    text-align: right;
-}
+
 /* BOTTOM FOOTER*/
 .bottomFooter {
     position: relative;
     width: 90%;
-    margin: 50px 5% 0% 5%;
+    margin: 100px 5% 0% 5%;
     text-align: center;
     color: #151717;
 }
