@@ -17,6 +17,8 @@
     <link id="stylesheet" rel="stylesheet" href="res/css/7.css"> <!--https://khang-nd.github.io/7.css/-->
     <!--<link rel="stylesheet" href="res/css/xp.css"/>--> <!--https://botoxparty.github.io/XP.css/-->
 
+    <!--<link rel="stylesheet" href="https://unpkg.com/98.css">-->
+
     <script src="res/js/content.js" defer></script>
 </head>
 
@@ -104,7 +106,7 @@
                     </div>
                 </div>
                 <div class="window-body has-space" style="padding: 1em;" id="controlpanel">
-                    SERVER ERROR (502) 
+                    <p style=" margin: 0; margin-bottom: 234.5px;">SERVER ERROR (502)</p>
 
 
 
@@ -115,7 +117,7 @@
         <div class="win7 win7window window3" style="display: flex; justify-content: center;">
             <div class="window glass active" style="width: 400px; height: fit-content;">
                 <div class="title-bar">
-                    <div class="title-bar-text">SELFLESSNESS.ONLINE ~ STORE</div>
+                    <div class="title-bar-text">Store</div>
                     <div class="title-bar-controls">
                         <button aria-label="Minimize"></button>
                         <button aria-label="Maximize"></button>
@@ -128,7 +130,7 @@
                         <button role="tab" aria-controls="2">SALEM✰</button>
                         <button role="tab" aria-controls="3" disabled>yourzTruly</button>
                     </menu>
-    
+
                     <article role="tabpanel" id="1">
                         <div class="store-wrap">
                             <div class="store-wrap-2" id="store">
@@ -145,12 +147,12 @@
                                         <a href="https://salemrecords.bandcamp.com">(salemrecords.bandcamp.com)</a>
                                     </p>
                                 </div>
-    
+
                                 <div class="store-item-unavailable">
-    
+
                                     <!--FREEWARE-->
-                                    <a href="https://salemrecords.bandcamp.com/album/-"><img src="res/img/freeware_cd.png"
-                                            height="100px" width="100px"></a>
+                                    <a href="https://salemrecords.bandcamp.com/album/-"><img
+                                            src="res/img/freeware_cd.png" height="100px" width="100px"></a>
                                     <p class="store-item-title">"freeware"<br>compact-disc</p>
                                     <p class="store-item-desc">catalog no. SLM-01</p>
                                     <a href="https://salemrecords.bandcamp.com/album/-" class="unavailable">
@@ -162,15 +164,15 @@
                                 </div>
                             </div>
                         </div>
-    
+
                     </article>
-    
+
                     <article role="tabpanel" hidden id="2">
                         <div class="store-wrap">
-                            <div class="store-wrap-2" id="store">    
+                            <div class="store-wrap-2" id="store">
                                 <div class="store-item-unavailable">
-                                    <a href="https://self.bigcartel.com/product/ytmp3"><img src="res/img/YTMP3 SALEM MOCKUP.png"
-                                            height="100px" width="100px"></a>
+                                    <a href="https://self.bigcartel.com/product/ytmp3"><img
+                                            src="res/img/YTMP3 SALEM MOCKUP.png" height="100px" width="100px"></a>
                                     <p class="store-item-title">YTMP3.CC<br>T-SHIRT</p>
                                     <p class="store-item-desc">~</p>
                                     <a href="https://self.bigcartel.com/product/ytmp3" class="unavailable">
@@ -181,8 +183,8 @@
                                     </p>
                                 </div>
                                 <div class="store-item-unavailable">
-                                    <a href="https://self.bigcartel.com/product/slsk"><img src="res/img/SLSKNET.ORG SALEM MOCKUP.png"
-                                            height="100px" width="100px"></a>
+                                    <a href="https://self.bigcartel.com/product/slsk"><img
+                                            src="res/img/SLSKNET.ORG SALEM MOCKUP.png" height="100px" width="100px"></a>
                                     <p class="store-item-title">SLSKNET.ORG<br>T-SHIRT</p>
                                     <p class="store-item-desc">~</p>
                                     <a href="https://self.bigcartel.com/product/slsk" class="unavailable">
@@ -194,15 +196,15 @@
                                 </div>
                             </div>
                         </div>
-    
+
                     </article>
-    
+
                     <article role="tabpanel" hidden id="3">
-    
+
                     </article>
                 </div>
             </div>
-    
+
         </div>
     </div>
 
@@ -230,6 +232,10 @@
                         <div class="field-row">
                             <input id="radio9" type="radio" name="fieldset-example2">
                             <label for="radio9">Windows XP</label>
+                        </div>
+                        <div class="field-row">
+                            <input id="radio10" type="radio" name="fieldset-example2">
+                            <label for="radio10">Windows 98</label>
                         </div>
                     </fieldset>
 
@@ -317,6 +323,12 @@
                                 <td class="column3">File Folder</td>
                                 <td class="column4">6 KB</td>
                             </tr>
+                            <tr>
+                                <td class="column1"> </td>
+                                <td class="column2"> </td>
+                                <td class="column3"> </td>
+                                <td class="column4"> </td>
+                            </tr>
                         </tbody>
                     </table>
                 </div>
@@ -390,6 +402,12 @@
                                 <td class="column2">2024/02/15 18:55</td>
                                 <td class="column3">Shortcut</td>
                                 <td class="column4">1 KB</td>
+                            </tr>
+                            <tr>
+                                <td class="column1"> </td>
+                                <td class="column2"> </td>
+                                <td class="column3"> </td>
+                                <td class="column4"> </td>
                             </tr>
 
 
@@ -493,6 +511,13 @@
             switchThemeAndBackground(
                 'res/css/xp.css',
                 'res/img/bliss.jpg'
+            );
+        });
+
+        document.getElementById('radio10').addEventListener('change', function () {
+            switchThemeAndBackground(
+                'res/css/98.css',
+                'res/img/98.jpg'
             );
         });
     </script>
