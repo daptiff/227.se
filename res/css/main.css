@@ -50,10 +50,14 @@ a:hover {
     top: -25px;
 }
 .window5 {
-    top: -12px;
+    top: -30px;
+    /*margin-right: 20px;*/
 }
 .window4{
     top: -30px;
+}
+.window6{
+    top: -12px
 }
 
 /* TOP TITLE CSS */
@@ -217,7 +221,7 @@ a:hover {
 }
 
 .store-wrap {
-    margin: 1em 0em 1em 0em;
+    margin: 1.25em 0em 0.1em 0em;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -233,7 +237,7 @@ a:hover {
 .store-item-unavailable {
     width: 100%;
     margin: 0.5em;
-    padding: 1em;
+    padding: 0em 1em 0em 1em;
     text-align: center;
     overflow: hidden;
 }
