@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
-    <!--<meta name="viewport" content="width=device-width, initial-scale=1.0">-->
+    <meta name="viewport" content="width=device-width, initial-scale=0.5">
 
     <meta name="description" content="SELFLESSNESS.ONLINE">
     <meta name="keywords"
@@ -15,8 +15,8 @@
     <link rel="icon" type="image/x-icon" href="/res/ico/favicon.ico?">
 
     <link rel="stylesheet" href="res/css/main.css">
-      <link rel="stylesheet" href="https://unpkg.com/7.css/dist/7.scoped.css" id="customStylesheet"> <!--https://khang-nd.github.io/7.css/-->
-  <!--<link rel="stylesheet" href="https://unpkg.com/xp.css"/>--> <!--https://botoxparty.github.io/XP.css/-->
+    <link id="stylesheet" rel="stylesheet" href="res/css/7.css"> <!--https://khang-nd.github.io/7.css/-->
+    <!--<link rel="stylesheet" href="res/css/xp.css"/>--> <!--https://botoxparty.github.io/XP.css/-->
 
     <script src="res/js/content.js" defer></script>
 </head>
@@ -34,7 +34,7 @@
         </div>
     </div>
 
-    <div class="navbar-wrap">
+    <!--<div class="navbar-wrap">
         <div class="navbar">
             /
             <a href="">home</a> /
@@ -42,184 +42,299 @@
             <a href="#archive">archive</a> /
 
         </div>
-    </div>
-
-    <div class="win7 win7window window1" style="display: flex; justify-content: center;">
-        <div class="window glass active" style="max-width: 370px">
-            <div class="title-bar">
-                <div class="title-bar-text">fj/c compact disc</div>
-                <div class="title-bar-controls">
-                    <button aria-label="Minimize"></button>
-                    <button aria-label="Maximize"></button>
-                    <button aria-label="Close"></button>
-                </div>
-            </div>
-            <div class="window-body has-space">
-                <div class="content-wrap">
-                    <div class="content">
-                        <img src="res/gif/cdspin advert (2).gif" width="340px">
-                        <!--<div class="label">
-                            <span id="cyclingSpan2">8 EUR</span>
-                        </div>-->
-                    </div>
-                </div>
-
-            </div>
-        </div>
-    </div>
-    
-
-    <div class="win7 win7window window2" style="display: flex; justify-content: center;">
-        <div class="window glass active" style="max-width: 370px">
-            <div class="title-bar">
-                <div class="title-bar-text">SALEM✰ ytmp3 t-shirt</div>
-                <div class="title-bar-controls">
-                    <button aria-label="Minimize"></button>
-                    <button aria-label="Maximize"></button>
-                    <button aria-label="Close"></button>
-                </div>
-            </div>
-            <div class="window-body has-space">
-
-                <div class="content-wrap">
-                    <div class="content">
-                        <!--<a href="res/gif/ytmp3.gif">--><a>
-                            <img src="res/gif/ytmp3.gif" width="320px">
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <!--<div class="toggleSwitch">
-        <a style="color: blue;" id="availabilitySwitch" onclick="toggleAvailability()">[hide unavailable]</a>
     </div>-->
 
-    <div class="win7 win7window window3" style="display: flex; justify-content: center;">
-        <div class="window glass active" style="width: 400px">
-            <div class="title-bar">
-                <div class="title-bar-text">SELFLESSNESS.ONLINE ~ STORE</div>
-                <div class="title-bar-controls">
-                    <button aria-label="Minimize"></button>
-                    <button aria-label="Maximize"></button>
-                    <button aria-label="Close"></button>
+    <div class="row">
+        <div class="win7 win7window window1" style="display: flex; justify-content: center;">
+            <div class="window glass active" style="max-width: 999px">
+                <div class="title-bar">
+                    <div class="title-bar-text">fj/c compact disc</div>
+                    <div class="title-bar-controls">
+                        <button aria-label="Minimize"></button>
+                        <button aria-label="Maximize"></button>
+                        <button aria-label="Close"></button>
+                    </div>
+                </div>
+                <div class="window-body has-space">
+                    <div class="content-wrap">
+                        <div class="content">
+                            <img src="res/gif/cdspin advert (2).gif" width="340px">
+                            <!--<div class="label">
+                            <span id="cyclingSpan2">8 EUR</span>
+                        </div>-->
+                        </div>
+                    </div>
+
                 </div>
             </div>
-            <div class="window-body has-space">
-                
-                <div class="store-wrap">
-                    <div class="store-wrap-2" id="store">
-                        <div class="store-item" onmouseover="changeImage('res/img/fjc_cd_b.png', this)"
-                            onmouseout="changeImage('res/img/fjc_cd.png', this)">
-                            <!--FJC-->
-                            <a href="https://salemrecords.bandcamp.com/album/fj-c"><img src="res/img/fjc_cd.png"
-                                    height="100px" width="100px"></a>
-                            <p class="store-item-title">"fj/c"<br>compact-disc</p>
-                            <p class="store-item-desc">catalog no. SLM-02</p>
-                            <a href="https://salemrecords.bandcamp.com/album/fj-c">
-                                <button>purchase</button>
-                            </a>
-                            <p class="store-item-desc-2">
-                                <a href="https://salemrecords.bandcamp.com">(salemrecords.bandcamp.com)</a>
-                            </p>
-                        </div>
+        </div>
 
-                        <div class="store-item-unavailable" onmouseover="changeImage('res/img/freeware_cd_b.png', this)"
-                            onmouseout="changeImage('res/img/freeware_cd.png', this)">
 
-                            <!--FREEWARE-->
-                            <a href="https://salemrecords.bandcamp.com/album/-"><img src="res/img/freeware_cd.png"
-                                    height="100px" width="100px"></a>
-                            <p class="store-item-title">"freeware"<br>compact-disc</p>
-                            <p class="store-item-desc">catalog no. SLM-01</p>
-                            <a href="https://salemrecords.bandcamp.com/album/-" class="unavailable">
-                                <button disabled>purchase</button>
+        <div class="win7 win7window window2" style="display: flex; justify-content: center;">
+            <div class="window glass active" style="max-width: 999px; height: fit-content;">
+                <div class="title-bar">
+                    <div class="title-bar-text">SALEM✰ ytmp3 t-shirt</div>
+                    <div class="title-bar-controls">
+                        <button aria-label="Minimize"></button>
+                        <button aria-label="Maximize"></button>
+                        <button aria-label="Close"></button>
+                    </div>
+                </div>
+                <div class="window-body has-space">
+
+                    <div class="content-wrap">
+                        <div class="content">
+                            <!--<a href="res/gif/ytmp3.gif">--><a>
+                                <img src="res/gif/ytmp3.gif" width="320px">
                             </a>
-                            <p class="store-item-desc-2">
-                                <a href="https://salemrecords.bandcamp.com">(salemrecords.bandcamp.com)</a>
-                            </p>
                         </div>
                     </div>
                 </div>
-
             </div>
         </div>
     </div>
+    <div class="row">
+        <div class="win7 win7window window5" style="display: flex; justify-content: center;">
+            <div class="window glass active" style="width: 425px; height: fit-content">
+                <div class="title-bar">
+                    <div class="title-bar-text">Control Panel</div>
+                    <div class="title-bar-controls">
+                        <button aria-label="Minimize"></button>
+                        <button aria-label="Maximize"></button>
+                        <button aria-label="Close"></button>
+                    </div>
+                </div>
+                <div class="window-body has-space" style="padding: 1em;" id="controlpanel">
 
+                    <img src="res/img/selflessnessonlinelogo.png" class="controlpanelimage">
+                    <fieldset>
+                        <legend>Theme:</legend>
+                        <div class="field-row">
+                            <input id="radio8" type="radio" name="fieldset-example2" checked>
+                            <label for="radio8">Windows 7</label>
+                        </div>
+                        <div class="field-row">
+                            <input id="radio9" type="radio" name="fieldset-example2">
+                            <label for="radio9">Windows XP</label>
+                        </div>
+                    </fieldset>
 
-
-    <div class="win7 window4" style="display: flex; justify-content: center;">
-        <div class="window glass active" style="width: 500px;">
-            <div class="title-bar">
-                <div class="title-bar-text">File Explorer</div>
-                <div class="title-bar-controls">
-                    <button aria-label="Minimize"></button>
-                    <button aria-label="Maximize"></button>
-                    <button aria-label="Close"></button>
                 </div>
             </div>
-            <div class="window-body has-space filexplorer">
+        </div>
 
-                <table style="width: 100%;" class="downloadstable" id="archive" id="myTable">
-                    <tbody>
-                        <tr style="height: 25px;">
-                            <td class="column1">Name</td>
-                            <td class="column2">Date modified</td>
-                            <td class="column3">Type</td>
-                            <td class="column4top">Size</td>
-                        </tr>
-                        <tr>
-                            <td class="column1">
-                                <img src="res/ico/rararchive.png" class="filetype" height="13px">
-                                <a href="https://drive.google.com/uc?export=download&id=1v7d7mS7X8dwMzBttfuSCBGvZ-uqf0-uG" style="color: black;" class="column-link">fj/c mp3.rar</a>
-                            </td>
-                            <td class="column2">2023/10/25 23:00</td>
-                            <td class="column3">WinRAR archive</td>
-                            <td class="column4">56,45 MB</td>
-                        </tr>
-                        <tr>
-                            <td class="column1">
-                                <img src="res/ico/rararchive.png" class="filetype" height="13px">
-                                <a href="https://drive.google.com/uc?export=download&amp;id=14h37Yy8si8DD5yaYjJY-up7XKTQx1saT" style="color: black;" class="column-link">fj/c flac.rar</a>
-                            </td>
-                            <td class="column2">2023/10/25 23:07</td>
-                            <td class="column3">WinRAR archive</td>
-                            <td class="column4">259,04 MB</td>
-                        </tr>
-                        <tr>
-                            <td class="column1">
-                                <img src="res/ico/rararchive.png" class="filetype" height="13px">
-                                <a href="https://drive.google.com/uc?export=download&amp;id=1lryft57g03jFsEMEgXC2yA8o-AqiQrXG" style="color: black;" class="column-link">fj/c bootleg.rar</a>
-                            </td>
-                            <td class="column2">2023/12/29 21:02</td>
-                            <td class="column3">WinRAR archive</td>
-                            <td class="column4">296,92 MB</td>
-                        </tr>
-                        <tr>
-                            <td class="column1">
-                                <img src="res/ico/rararchive.png" class="filetype" height="13px">
-                                <a href="https://drive.google.com/uc?export=download&amp;id=1WArSi8BKtj8WF-K-aCIQJx-mARXnZGIR" style="color: black;" class="column-link">alot & always mp3.rar</a>
-                            </td>
-                            <td class="column2">2024/02/09 07:20</td>
-                            <td class="column3">WinRAR archive</td>
-                            <td class="column4">20,90 MB</td>
-                        </tr>
-                        <tr>
-                            <td class="column1">
-                                <img src="res/ico/txtfile.png" class="filetype" height="13px">
-                                <a href style="color: black;" class="column-link">piracybible.pdf</a>
-                            </td>
-                            <td class="column2">2024/02/01 04:10</td>
-                            <td class="column3">PDF document</td>
-                            <td class="column4">723 KB</td>
-                        </tr>
-                    </tbody>
-                </table>
-                <!-- DivTable.com -->
+        <div class="win7 win7window window3" style="display: flex; justify-content: center;">
+            <div class="window glass active" style="width: 400px; height: fit-content;">
+                <div class="title-bar">
+                    <div class="title-bar-text">SELFLESSNESS.ONLINE ~ STORE</div>
+                    <div class="title-bar-controls">
+                        <button aria-label="Minimize"></button>
+                        <button aria-label="Maximize"></button>
+                        <button aria-label="Close"></button>
+                    </div>
+                </div>
+                <div class="window-body has-space">
+
+                    <div class="store-wrap">
+                        <div class="store-wrap-2" id="store">
+                            <div class="store-item" onmouseover="changeImage('res/img/fjc_cd_b.png', this)"
+                                onmouseout="changeImage('res/img/fjc_cd.png', this)">
+                                <!--FJC-->
+                                <a href="https://salemrecords.bandcamp.com/album/fj-c"><img src="res/img/fjc_cd.png"
+                                        height="100px" width="100px"></a>
+                                <p class="store-item-title">"fj/c"<br>compact-disc</p>
+                                <p class="store-item-desc">catalog no. SLM-02</p>
+                                <a href="https://salemrecords.bandcamp.com/album/fj-c">
+                                    <button>purchase</button>
+                                </a>
+                                <p class="store-item-desc-2">
+                                    <a href="https://salemrecords.bandcamp.com">(salemrecords.bandcamp.com)</a>
+                                </p>
+                            </div>
+
+                            <div class="store-item-unavailable"
+                                onmouseover="changeImage('res/img/freeware_cd_b.png', this)"
+                                onmouseout="changeImage('res/img/freeware_cd.png', this)">
+
+                                <!--FREEWARE-->
+                                <a href="https://salemrecords.bandcamp.com/album/-"><img src="res/img/freeware_cd.png"
+                                        height="100px" width="100px"></a>
+                                <p class="store-item-title">"freeware"<br>compact-disc</p>
+                                <p class="store-item-desc">catalog no. SLM-01</p>
+                                <a href="https://salemrecords.bandcamp.com/album/-" class="unavailable">
+                                    <button disabled>purchase</button>
+                                </a>
+                                <p class="store-item-desc-2">
+                                    <a href="https://salemrecords.bandcamp.com">(salemrecords.bandcamp.com)</a>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
             </div>
         </div>
     </div>
+
+
+    <div class="row">
+        <div class="win7 win7window window4" style="display: flex; justify-content: center;">
+            <div class="window glass active" style="width: 530px; height: fit-content;">
+                <div class="title-bar">
+                    <div class="title-bar-text">File Explorer</div>
+                    <div class="title-bar-controls">
+                        <button aria-label="Minimize"></button>
+                        <button aria-label="Maximize"></button>
+                        <button aria-label="Close"></button>
+                    </div>
+                </div>
+                <div class="window-body has-space filexplorer" id="filexplorer_pg1">
+
+                    <table style="width: 100%;" class="downloadstable" id="archive" id="myTable">
+                        <tbody>
+                            <tr style="height: 25px;">
+                                <td class="column1">Name</td>
+                                <td class="column2">Date modified</td>
+                                <td class="column3">Type</td>
+                                <td class="column4top">Size</td>
+                            </tr>
+                            <tr>
+                                <td class="column1">
+                                    <img src="res/ico/rararchive.png" class="filetype" height="13px">
+                                    <a href="https://drive.google.com/uc?export=download&id=1v7d7mS7X8dwMzBttfuSCBGvZ-uqf0-uG"
+                                        style="color: black;" class="column-link">fj/c mp3.rar</a>
+                                </td>
+                                <td class="column2">2023/10/25 23:00</td>
+                                <td class="column3">WinRAR archive</td>
+                                <td class="column4">56,45 MB</td>
+                            </tr>
+                            <tr>
+                                <td class="column1">
+                                    <img src="res/ico/rararchive.png" class="filetype" height="13px">
+                                    <a href="https://drive.google.com/uc?export=download&amp;id=14h37Yy8si8DD5yaYjJY-up7XKTQx1saT"
+                                        style="color: black;" class="column-link">fj/c flac.rar</a>
+                                </td>
+                                <td class="column2">2023/10/25 23:07</td>
+                                <td class="column3">WinRAR archive</td>
+                                <td class="column4">259,04 MB</td>
+                            </tr>
+                            <tr>
+                                <td class="column1">
+                                    <img src="res/ico/rararchive.png" class="filetype" height="13px">
+                                    <a href="https://drive.google.com/uc?export=download&amp;id=1lryft57g03jFsEMEgXC2yA8o-AqiQrXG"
+                                        style="color: black;" class="column-link">fj/c bootleg.rar</a>
+                                </td>
+                                <td class="column2">2023/12/29 21:02</td>
+                                <td class="column3">WinRAR archive</td>
+                                <td class="column4">296,92 MB</td>
+                            </tr>
+                            <tr>
+                                <td class="column1">
+                                    <img src="res/ico/rararchive.png" class="filetype" height="13px">
+                                    <a href="https://drive.google.com/uc?export=download&amp;id=1WArSi8BKtj8WF-K-aCIQJx-mARXnZGIR"
+                                        style="color: black;" class="column-link">alot & always mp3.rar</a>
+                                </td>
+                                <td class="column2">2024/02/09 07:20</td>
+                                <td class="column3">WinRAR archive</td>
+                                <td class="column4">20,90 MB</td>
+                            </tr>
+                            <tr>
+                                <td class="column1">
+                                    <img src="res/ico/txtfile.png" class="filetype" height="13px">
+                                    <a href style="color: black;" class="column-link">thepiracybible.pdf</a>
+                                    <i>(private)</i>
+                                </td>
+                                <td class="column2">2024/02/01 04:10</td>
+                                <td class="column3">PDF document</td>
+                                <td class="column4">723 KB</td>
+                            </tr>
+                            <tr>
+                                <td class="column1">
+                                    <img src="res/ico/folder.png" class="filetype" height="13px" width="15px">
+                                    <a onclick="shortcuts_link()" style="color: black;" class="column-link">Shortcuts</a>
+                                </td>
+                                <td class="column2">2024/02/13 17:25</td>
+                                <td class="column3">File Folder</td>
+                                <td class="column4">6 KB</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+
+                <div class="window-body has-space filexplorer" id="filexplorer_pg2" style="display: none;" style="height: 170px;">
+
+                    <table style="width: 100%;" class="downloadstable" id="archive" id="myTable">
+                        <tbody>
+                            <tr style="height: 25px;">
+                                <td class="column1">Name</td>
+                                <td class="column2">Date modified</td>
+                                <td class="column3">Type</td>
+                                <td class="column4top">Size</td>
+                            </tr>
+                            <tr>
+                                <td class="column1">
+                                    <img src="res/ico/folder.png" class="filetype" height="13px">
+                                    <a onclick="shortcuts_link()" style="color: black;" class="column-link">..</a>
+                                </td>
+                                <td class="column2"> </td>
+                                <td class="column3">File Folder</td>
+                                <td class="column4"> </td>
+                            </tr>
+                            <tr>
+                                <td class="column1">
+                                    <img src="res/ico/shortcut.png" class="filetype" height="13px">
+                                    <a href="https://soundcloud.com/djselflessness" style="color: black;" class="column-link">Soundcloud</a>
+                                </td>
+                                <td class="column2">2024/02/15 18:40</td>
+                                <td class="column3">Shortcut</td>
+                                <td class="column4">2 KB</td>
+                            </tr>
+                            <tr>
+                                <td class="column1">
+                                    <img src="res/ico/shortcut.png" class="filetype" height="13px">
+                                    <a href="https://salemrecords.bandcamp.com/" style="color: black;" class="column-link">Bandcamp</a>
+                                </td>
+                                <td class="column2">2024/02/15 18:40</td>
+                                <td class="column3">Shortcut</td>
+                                <td class="column4">1 KB</td>
+                            </tr>
+                            <tr>
+                                <td class="column1">
+                                    <img src="res/ico/shortcut.png" class="filetype" height="13px">
+                                    <a href="https://www.instagram.com/82dk7a/" style="color: black;" class="column-link">Instagram</a>
+                                </td>
+                                <td class="column2">2024/02/15 18:41</td>
+                                <td class="column3">Shortcut</td>
+                                <td class="column4">1 KB</td>
+                            </tr>
+                            <tr>
+                                <td class="column1">
+                                    <img src="res/ico/shortcut.png" class="filetype" height="13px">
+                                    <a href="https://www.twitter.com/fortodaynothing" style="color: black;" class="column-link">Twitter</a>
+                                </td>
+                                <td class="column2">2024/02/15 18:47</td>
+                                <td class="column3">Shortcut</td>
+                                <td class="column4">1 KB</td>
+                            </tr>
+                            <tr>
+                                <td class="column1">
+                                    <img src="res/ico/shortcut.png" class="filetype" height="13px">
+                                    <a href="https://open.spotify.com/artist/4qtgnAbgjB9cKvVTu704R5?si=if_AguUSTESyxom5JN0ojw" style="color: black;" class="column-link">Spotify</a>
+                                </td>
+                                <td class="column2">2024/02/15 18:55</td>
+                                <td class="column3">Shortcut</td>
+                                <td class="column4">1 KB</td>
+                            </tr>
+                            
+
+                        </tbody>
+                    </table>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
 
     <!--<div class="content-wrap">
         <div class="linkList">
@@ -238,11 +353,11 @@
         </div>
     </div>-->
 
-    <div class="bottomFooterReal">
+    <!--<div class="bottomFooterReal">
         <div class="bottomFooter">
             <i>©2024 selflessness.online<br>
-                <!--<small><i> selflessness.online, Salem Records and SALEM® are either registered trademarks or
-                        trademarks of Selflessness Corporation.</i></small>-->
+                <small><i> selflessness.online, Salem Records and SALEM® are either registered trademarks or
+                        trademarks of Selflessness Corporation.</i></small>
             </i>
             <p><i>HTML Webpage designed by "<a href="team.html">yourzTruly</a>" ©
                     2019-2024</i><br>
@@ -266,14 +381,14 @@
                 </a>
             </div>
         </div>
-    </div>
+    </div>-->
 
-    <script>
+    <!--<script>
         document.addEventListener('DOMContentLoaded', function () {
 
             const cyclingSpan = document.getElementById('cyclingSpan');
 
-            const values = ["->", "-->"];
+            const values = ["->", "->"];
 
             let currentIndex = 0;
 
@@ -286,25 +401,54 @@
 
             updateSpan();
         });
-    </script>
+    </script>-->
 
     <script>
-        function changeImage(src, element) {
-            element.querySelector('img').src = src;
+        function switchThemeAndBackground(theme, backgroundImage) {
+            var oldLink = document.getElementById('stylesheet');
+            var newLink = document.createElement('link');
+            newLink.id = 'stylesheet';
+            newLink.rel = 'stylesheet';
+            newLink.href = theme;
+            document.head.replaceChild(newLink, oldLink);
+
+            var body = document.body;
+            body.style.backgroundImage = 'url("' + backgroundImage + '")';
         }
 
-        function toggleAvailability() {
-            var switchElement = document.getElementById('availabilitySwitch');
-            var unavailableItems = document.querySelectorAll('.store-item-unavailable');
+        document.getElementById('radio8').addEventListener('change', function () {
+            switchThemeAndBackground(
+                'res/css/7.css',
+                'res/img/background.jpg'
+            );
+        });
 
-            for (var i = 0; i < unavailableItems.length; i++) {
-                var item = unavailableItems[i];
-                item.style.display = item.style.display === 'none' ? 'block' : 'none';
-            }
-
-            switchElement.textContent = switchElement.textContent === '[hide unavailable]' ? '[show unavailable]' : '[hide unavailable]';
-        }
+        document.getElementById('radio9').addEventListener('change', function () {
+            switchThemeAndBackground(
+                'res/css/xp.css',
+                'res/img/bliss.jpg'
+            );
+        });
     </script>
+
+<script>
+    function shortcuts_link() {
+        // Get references to the div elements
+        var div1 = document.getElementById("filexplorer_pg1");
+        var div2 = document.getElementById("filexplorer_pg2");
+
+        // Toggle visibility between div1 and div2
+        if (div1.style.display !== "none") {
+            // Hide div1 and show div2
+            div1.style.display = "none";
+            div2.style.display = "block"; // or "flex" if you want to keep the flex property
+        } else {
+            // Hide div2 and show div1
+            div2.style.display = "none";
+            div1.style.display = "block"; // or "flex" if you want to keep the flex property
+        }
+    }
+</script>
 
 </body>
 
