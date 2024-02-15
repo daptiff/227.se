@@ -1,10 +1,10 @@
-html {
+body {
     background-image: url(../img/background.jpg);
-    /*background-image: url(../img/w7bg.jpg);*/
     background-size: cover;
     background-position: center center;
     background-attachment: fixed;
     background-repeat: no-repeat;
+    margin-bottom: 7.5em;
 }
 
 i {
@@ -35,13 +35,30 @@ a:hover {
 .win7 {
     /*position: absolute;*/
     width: auto;
+    position: relative;
 }
 .win7window {
-    margin: 0em 0em 2em 0em;
+    margin: 0em 0.4em 1.5em 0.4em;
+    position: relative;
 }
+.row{
+    display: flex;
+    justify-content: center;
+    height: fit-content;
+}
+.window3{
+    top: -25px;
+}
+.window5 {
+    top: -12px;
+}
+.window4{
+    top: -30px;
+}
+
 /* TOP TITLE CSS */
 .header{
-    margin: 1.25em 0em 0.5em 0em;
+    margin: 1.25em 0em 3.5em 0em;
 }
 .topTitle {
     width: auto;
@@ -52,17 +69,19 @@ a:hover {
     justify-content: center;
 }
 
+/* MOVED TO 7.CSS & XP.CSS
+
 .title-wrap a {
     text-decoration: none;
     display: flex;
     justify-content: center;
     color: blue;
-    font-size: 250%;
+    font-size: 300%;
     margin: 20px 0px -18px 0px;
     font-weight: 900;
     font-style: italic;
     width: fit-content;
-}
+}*/
 
 /* TITLE SCROLL CSS */
 @keyframes scrollRight {
@@ -98,7 +117,7 @@ a:hover {
 
 
 /* NAV BAR CSS */
-.navbar-wrap {
+/*.navbar-wrap {
     margin: 0.75em 0em 4em 0em;
     display: flex;
     justify-content: center;
@@ -115,7 +134,7 @@ a:hover {
 .navbar a {
     color: blue;
     text-decoration: none;
-}
+}*/
 
 /* INDEX MAIN CONTENT CSS */
 
@@ -124,7 +143,7 @@ a:hover {
     display: flex;
     justify-content: center;
     position: relative;
-    margin: -6px -6px -9px -6px;
+    /*margin: -6px -3px -9px -3px;*/
 }
 
 .label {
@@ -263,16 +282,20 @@ a:hover {
 /* ARCHIVE CSS */
 .downloadstable{
     margin: 0px 0px 15px 0px;
+    padding: 7px 5px 0px 5px;
 }
 .filexplorer{
     margin: -12.5px 0px 0px 0px;
 }
 .filetype {
     margin: 0px 5px 0px 0px;
+    position: relative;
+    top: 2px;
 }
 table {
     width: 100%;
 }
+
 td {
     white-space: nowrap;
     overflow: hidden;
