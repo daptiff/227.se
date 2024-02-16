@@ -153,12 +153,15 @@ body {
 table {
     width: 100%;
 }
-
 td {
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
     box-sizing: border-box;
+}
+.downloadstable a:active{
+    font-weight: 600;
+
 }
 .column1 {
     width: 37.5%;
