@@ -1,5 +1,11 @@
 /* XP EDITS */
-
+body{
+    background-image: url(../img/bliss.jpg) !important;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
 .content-wrap{
     margin: -8px -6px -11px -6px;
 }
@@ -35,10 +41,6 @@
     transform: translate(-50%, -50%);
     z-index: -1;
 }
-.controlpanelimage{
-    margin: -5px 0px 10px -2px;
-    opacity: 90%;
-}
 .column-link {
     text-decoration: none;
 }
@@ -47,6 +49,9 @@
 }
 #controlpanel{
     height: 279.5px;
+}
+.downloadstable{
+    padding-top: 0 !important;
 }
 
 /*! XP.css v0.2.6 - https://botoxparty.github.io/XP.css/ */

@@ -1,3 +1,13 @@
+/* 98 EDITS */
+
+body{
+    background-image: url(../img/98_2.jpg) !important;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
 .title-wrap a {
     font-family: 'Times New Roman', Times, serif;
     text-decoration: none;
@@ -34,6 +44,9 @@
 }
 .column-link:hover{
     text-decoration: underline;
+}
+.content-wrap{
+    margin: -7px -8px -10.5px -8px;
 }
 
 /*! 98.css v0.1.20 - https://github.com/jdan/98.css */

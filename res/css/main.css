@@ -1,39 +1,17 @@
 body {
-    background-image: url(../img/background.jpg);
-    background-size: cover;
-    background-position: center center;
-    background-attachment: fixed;
-    background-repeat: no-repeat;
     margin-bottom: 7.5em;
 }
-
-i {
-    font-style: italic;
-}
-
-font[size="-3"] {
-    font-size: 70%;
-}
-
-a {
-    color: blue;
-}
-
-a:hover {
-    text-shadow: 1px 1px 2px white, 0 0 1em white, 0 0 0.1em blue;
-}
-
 @font-face {
     font-family: stylewars;
     src: url(../font/STYLEWARS\ 2011.ttf);
 }
-
 @font-face {
     font-family: comic_sans;
     src: url(../font/COMIC.TTF)
 }
+
+/* WINDOW POSITIONS */
 .win7 {
-    /*position: absolute;*/
     width: auto;
     position: relative;
 }
@@ -51,7 +29,6 @@ a:hover {
 }
 .window5 {
     top: -30px;
-    /*margin-right: 20px;*/
 }
 .window4{
     top: -30px;
@@ -60,34 +37,18 @@ a:hover {
     top: -12px
 }
 
-/* TOP TITLE CSS */
+/* TOP TITLE */
+/* !! MORE STYLES IN FRAMEWORKS */
 .header{
     margin: 1.25em 0em 3.5em 0em;
 }
 .topTitle {
     width: auto;
 }
-
 .title-wrap {
     display: flex;
     justify-content: center;
 }
-
-/* MOVED TO 7.CSS & XP.CSS
-
-.title-wrap a {
-    text-decoration: none;
-    display: flex;
-    justify-content: center;
-    color: blue;
-    font-size: 300%;
-    margin: 20px 0px -18px 0px;
-    font-weight: 900;
-    font-style: italic;
-    width: fit-content;
-}*/
-
-/* TITLE SCROLL CSS */
 @keyframes scrollRight {
     0% {
         transform: translateX(100%);
@@ -97,15 +58,12 @@ a:hover {
         transform: translateX(-100%);
     }
 }
-
-
 .scrollText {
     white-space: nowrap;
     overflow: hidden;
     animation: scrollRight 7.5s linear infinite;
     color: blue;
 }
-
 .scrollWrap {
     width: 300px;
     overflow: hidden;
@@ -120,106 +78,14 @@ a:hover {
 }
 
 
-/* NAV BAR CSS */
-/*.navbar-wrap {
-    margin: 0.75em 0em 4em 0em;
-    display: flex;
-    justify-content: center;
-}
-
-.navbar {
-    color: #151717;
-    display: inline-block;
-    list-style: none;
-    text-align: center;
-    word-spacing: 5px;
-}
-
-.navbar a {
-    color: blue;
-    text-decoration: none;
-}*/
-
 /* INDEX MAIN CONTENT CSS */
-
 .content-wrap {
-    /*margin: 4em 2em 0em 2em;*/
     display: flex;
     justify-content: center;
     position: relative;
-    /*margin: -6px -3px -9px -3px;*/
-}
-
-.label {
-    position: absolute;
-    bottom: 3px;
-    right: -10px;
-    transform: rotate(-20deg);
-    color: #fff;
-    overflow: hidden;
-    z-index: 1;
-    display: grid;
-}
-
-.label span {
-    color: red;
-    font-size: 200%;
-    font-weight: bold;
-    font-family: comic_sans;
-}
-
-.content {
-    position: relative;
-}
-
-.content {
-    position: relative;
-}
-
-.caption_cs {
-    margin: 0px;
-    text-align: center;
-    font-family: comic_sans;
-    color: blue;
-}
-
-.content-wrap2 a {
-    color: blue;
-    font-size: 110%;
-}
-
-.justified {
-    display: flex;
-    justify-content: center;
-}
-
-.linkList {
-    font-size: 150%;
-    font-style: italic;
-    height: 85px;
-    text-align: center;
-    width: 300px;
-}
-
-.linkList a:hover {
-    font-family: comic_sans;
-    font-size: 87.5%;
 }
 
 /* STORE CSS */
-.toggleSwitch {
-    text-align: center;
-    margin: 4em 0em -2em 0em;
-}
-
-.toggleSwitch a {
-    text-decoration: none;
-    cursor: pointer;
-    color: #151717;
-    margin: 0;
-    font-size: 0.8em;
-}
-
 .store-wrap {
     margin: 1.25em 0em 0.1em 0em;
     display: flex;
@@ -228,7 +94,6 @@ a:hover {
 }
 
 .store-wrap-2 {
-    /*margin: 2em 0em 0em 0em;*/
     display: flex;
     justify-content: center;
 }
@@ -241,52 +106,41 @@ a:hover {
     text-align: center;
     overflow: hidden;
 }
-
-.store-item.unavailable {
-    display: none;
-}
-
 .store-item img {
     max-width: 100%;
     height: auto;
 }
-
 .store-item-title {
     margin: 5px;
     font-size: 1rem;
     font-weight: bold;
     color: #151717;
 }
-
 .store-item-desc {
     font-size: 0.8rem;
     font-style: italic;
     color: #151717;
 }
-
 .store-item-desc-2 {
     width: 135px;
     text-align: center;
     font-size: 0.55rem;
     color: #151717;
-    /*margin: -0.5em 0 0 0;*/
 }
-
 .store-item a,
 .store-item-unavailable a {
     color: blue;
     font-size: 110%;
 }
-
 .store-item a:hover,
 .store-item-unavailable a:hover {
     font-style: italic;
 }
 
-/* ARCHIVE CSS */
+/* FILE EXPLORER TABLE */
 .downloadstable{
     margin: 0px 0px 15px 0px;
-    padding: 7px 5px 0px 5px;
+    padding: 5px 5px 0px 5px;
 }
 .filexplorer{
     margin: -12.5px 0px 0px 0px;
@@ -320,54 +174,4 @@ td {
 }
 .column4 {
     text-align: right;
-}
-/* BOTTOM FOOTER*/
-.bottomFooter {
-    position: relative;
-    width: 90%;
-    margin: 50px 5% 0% 5%;
-    text-align: center;
-    color: #151717;
-}
-
-.bottomFooterReal a {
-    color: blue;
-}
-
-.bottomFooterReal {
-    margin-bottom: 50px
-}
-
-.social_media_icons {
-    display: flex;
-    justify-content: center;
-}
-
-
-/* TEAM LIST */
-.teamListContainer {
-    display: flex;
-    justify-content: center;
-}
-
-.teamList {
-    text-align: center;
-    margin-top: 20px;
-}
-
-.teamList ul {
-    list-style: none;
-    padding: 0;
-}
-
-.teamList li {
-    display: flex;
-    align-items: center;
-    margin: 0px 0px 10px 0px;
-    color: blue;
-}
-
-.teamList img {
-    width: 25px;
-    margin-right: 5px;
 }
