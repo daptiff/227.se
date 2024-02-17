@@ -38,6 +38,29 @@ body{
 #controlpanel{
     height: 298px;
 }
+#blogContent{
+    max-height: 276px;
+}
+.blogPost img {
+    width: 80px;
+    height: 80px;
+    border-radius: 2px;
+}
+.blogPost{
+    margin-bottom: 2px !important;
+    max-width: 93%;
+}
+.blogText{
+    overflow-wrap: break-word;
+    max-width: 272px;
+}
+#blogContent{
+    padding: 0px 0px 0px 5px;
+}
+#blogSearch{
+    margin: 5px 0px -5px 5px;
+    width: 93.5%;
+}
 
 /*! 7.css v0.16.0 - https://khang-nd.github.io/7.css */
 body.win7 {

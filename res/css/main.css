@@ -9,7 +9,6 @@ body {
     font-family: comic_sans;
     src: url(../font/COMIC.TTF)
 }
-
 /* WINDOW POSITIONS */
 .win7 {
     width: auto;
@@ -36,6 +35,21 @@ body {
 .window6{
     top: -12px
 }
+.blogPost{
+    justify-content: left;
+    display: flex;
+    background-color: white;
+}
+.blogPost span{
+    font-weight: bold;
+}
+.blogText{
+    margin-left: 10px;
+}
+#blogSearch{
+    margin: 0 0 -5px 0;
+}
+
 
 /* TOP TITLE */
 /* !! MORE STYLES IN FRAMEWORKS */
