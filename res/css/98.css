@@ -50,7 +50,7 @@ body{
     margin: -7px -8px -10.5px -8px;
 }
 #blogContent{
-    max-height: 248px;
+    max-height: 272px;
 }
 .blogPost img {
     width: 75px;
@@ -65,6 +65,31 @@ body{
 }
 #blogSearch{
     width: 100%;
+}
+
+/**/
+
+.filetype{
+    background-size: cover;
+    height: 15px;
+    width: 15px;
+    border: none !important;
+    margin: 0 0 0 0;
+}
+.document{
+    background-image: url(../ico/98/document.png);
+}
+.archive{
+    background-image: url(../ico/98/archive.png);
+}
+.open_directory{
+    background-image: url(../ico/98/diropen.png);
+}
+.closed_directory{
+    background-image: url(../ico/98/dirclosed.png);
+}
+.shortcut{
+    background-image: url(../ico/98/shortcut.png);
 }
 /*! 98.css v0.1.20 - https://github.com/jdan/98.css */
 @font-face {

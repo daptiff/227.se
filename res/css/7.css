@@ -39,7 +39,9 @@ body{
     height: 298px;
 }
 #blogContent{
-    max-height: 276px;
+    max-height: 300px;
+    padding-top: 5px !important;
+    padding-bottom: 5px !important;
 }
 .blogPost img {
     width: 80px;
@@ -60,6 +62,29 @@ body{
 #blogSearch{
     margin: 5px 0px -5px 5px;
     width: 93.5%;
+}
+.filetype{
+    background-size: cover;
+    height: 15px;
+    width: 15px;
+    border: none !important;
+    margin: 0 0 0 0 !important;
+    padding: 0 0 0 0 !important;
+}
+.document{
+    background-image: url(../ico/7/document.ico);
+}
+.archive{
+    background-image: url(../ico/7/archive.ico);
+}
+.open_directory{
+    background-image: url(../ico/7/diropen.ico);
+}
+.closed_directory{
+    background-image: url(../ico/7/dirclosed.ico);
+}
+.shortcut{
+    background-image: url(../ico/7/shortcut.ico);
 }
 
 /*! 7.css v0.16.0 - https://khang-nd.github.io/7.css */

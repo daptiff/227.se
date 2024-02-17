@@ -54,7 +54,11 @@ body{
     padding-top: 0 !important;
 }
 #blogContent{
-    max-height: 266px;
+    max-height: 293px;
+    margin-top: -7px;
+    margin-bottom: -7px;
+    padding-top: 5px !important;
+    padding-bottom: 5px !important;
 }
 .blogPost img {
     width: 85px;
@@ -73,6 +77,33 @@ fieldset.blogPost{
     margin-left: 2px;
     width: 93.30%;
 }
+.downloadstable td {
+    margin-bottom: -10px; /* Adjust the negative value to counteract the tr margin */
+}
+.filetype{
+    background-size: cover;
+    height: 16px;
+    width: 16px;
+    border: none !important;
+    margin: 0 0 0 0 !important;
+    padding: 0 0 0 0 !important;
+}
+.document{
+    background-image: url(../ico/xp/document.ico);
+}
+.archive{
+    background-image: url(../ico/xp/archive.ico);
+}
+.open_directory{
+    background-image: url(../ico/xp/diropen.ico);
+}
+.closed_directory{
+    background-image: url(../ico/xp/dirclosed.ico);
+}
+.shortcut{
+    background-image: url(../ico/xp/archive.ico);
+}
+  
 
 
 /*! XP.css v0.2.6 - https://botoxparty.github.io/XP.css/ */
