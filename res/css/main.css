@@ -30,7 +30,7 @@ body {
     top: -25px;
 }
 .window5 {
-    top: -30px;
+    top: -15px;
 }
 .window4{
     top: -30px;
@@ -51,6 +51,23 @@ body {
 }
 #blogSearch{
     margin: 0 0 -5px 0;
+}
+#notepad{
+    font-family: comic_sans !important;
+    max-width: 448px;
+}
+.notepadFieldset{
+    overflow-y: scroll;
+}
+.notepadFieldset p{
+    margin: 5px 0px 0px 2px;
+    max-width: 255px;
+}
+p[contenteditable="true"] {
+    margin: 0;
+    padding: 0;
+    outline: none; 
+
 }
 
 

@@ -105,6 +105,41 @@ fieldset.blogPost {
     /* Adjust the negative value to counteract the tr margin */
 }
 
+/* NOTE PAD */
+.menubar7,
+.menubar7 ul,
+.menubar7 li,
+.menubar7 a,
+.menubar7 button {
+    display: none !important;
+}
+.menubar98_XP{
+    margin: 0px 0px 0px -35px;
+    position: relative;
+    top: -3px;
+}
+.menubar98_XP li {
+    display: inline;
+    margin-right: 10px;
+}
+#notepadWrap{
+    margin: 8px 3px -9px 3px;
+}
+#notepad{
+    border-radius: 0 !important;
+    background-color: white !important;
+    padding: 2px 0px 0px 2px;
+}
+.notepadFieldset p{
+    font-size: 125%;
+}
+
+/**/
+.fileexpFieldset{
+    margin: 0px -5px 0 -5px;
+    padding: 0px 0 0 0;
+    border-radius: 0;
+}
 .filetype {
     background-size: cover;
     height: 16px;

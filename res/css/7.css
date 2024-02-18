@@ -72,6 +72,35 @@ body{
     margin: 5px 0px -5px 5px;
     width: 93.5%;
 }
+/* NOTE PAD */
+#notepad{
+    border-radius: 0 !important;
+    background-color: white !important;
+    padding: 5px 0px 0px 2px;
+}
+.menubar7 li{
+    position: relative;
+    top: -4px;
+}
+.menubar98_XP,
+.menubar98_XP ul,
+.menubar98_XP li,
+.menubar98_XP a,
+.menubar98_XP button {
+    display: none !important;
+}
+.notepadFieldset p{
+    font-size: 110%;
+}
+.fileexpFieldset{
+    background-color: white;
+}
+/**/
+.fileexpFieldset{
+    margin: 0 0 0 0 !important;
+    padding: 0 0 0 0 !important;
+    border-radius: 0;
+}
 .filetype{
     background-size: cover;
     height: 15px;
@@ -585,6 +614,7 @@ body.win7 {
 .win7 ul[role=menubar]>[role=menuitem]:focus-within,
 .win7 ul[role=menubar]>[role=menuitem]:hover {
     background: #39f;
+    margin: 5px 0px 5px 0px;
     color: #fff;
     outline: none
 }

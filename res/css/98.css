@@ -76,7 +76,44 @@ body{
     width: 100%;
 }
 
+/* NOTE PAD */
+.menubar7,
+.menubar7 ul,
+.menubar7 li,
+.menubar7 a,
+.menubar7 button {
+    display: none !important;
+}
+.menubar98_XP{
+    margin: 0px 0px 0px -35px;
+    position: relative;
+    top: -2px;
+}
+.menubar98_XP li {
+    display: inline;
+    margin-right: 10px;
+}
+#notepadWrap{
+    margin: 6px -1px 0px -1px;
+}
+#notepad{
+    padding: 5px 0 0 5px;
+}
+.notepadFieldset p{
+    font-size: 125%;
+}
+
 /**/
+.W98fix_1{
+    position: relative;
+    left: -5px;
+    margin-top: -2px;
+}
+.fileexpFieldset{
+    margin: 0px -8px -8px -8px;
+    padding: 0 0 0 0;
+    border-radius: 0;
+}
 
 .filetype{
     background-size: cover;
