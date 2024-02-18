@@ -23,6 +23,9 @@ body {
     justify-content: center;
     height: fit-content;
 }
+.window1000{
+    top: -9px
+}
 .window3{
     top: -25px;
 }
@@ -162,7 +165,8 @@ body {
 .filetype {
     margin: 0px 5px 0px 0px;
     position: relative;
-    top: 2px;
+    top: 3px;
+    
 }
 table {
     width: 100%;

@@ -50,11 +50,20 @@ body{
     margin: -7px -8px -10.5px -8px;
 }
 #blogContent{
-    max-height: 272px;
+    max-height: 281px;
 }
 .blogPost img {
     width: 75px;
     height: 75px;
+}
+#pinnedIcon {
+    background-image: url(../ico/pinned.gif);
+    background-size: cover;
+    height: 9px;
+    width: 9px;
+    margin-left: 5px;
+    position: relative;
+    top: 1px;
 }
 #storeTablist98{
     margin: 0px 0px -16px -3px;

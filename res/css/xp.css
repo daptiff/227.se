@@ -1,12 +1,13 @@
 /* XP EDITS */
-body{
+body {
     background-image: url(../img/bliss.jpg) !important;
     background-size: cover;
     background-position: center center;
     background-attachment: fixed;
     background-repeat: no-repeat;
 }
-.content-wrap{
+
+.content-wrap {
     margin: -8px -6px -11px -6px;
 }
 
@@ -22,6 +23,7 @@ body{
     font-style: italic;
     width: fit-content;
 }
+
 .scrollText {
     font-family: 'Times New Roman', Times, serif;
     white-space: nowrap;
@@ -29,6 +31,7 @@ body{
     animation: scrollRight 7.5s linear infinite;
     color: blue;
 }
+
 .scrollWrap {
     width: 350px;
     overflow: hidden;
@@ -41,46 +44,68 @@ body{
     transform: translate(-50%, -50%);
     z-index: -1;
 }
+
 .column-link {
     text-decoration: none;
 }
-.column-link:hover{
+
+.column-link:hover {
     text-decoration: underline;
 }
-#controlpanel{
+
+#controlpanel {
     height: 279.5px;
 }
-.downloadstable{
+
+.downloadstable {
     padding-top: 0 !important;
 }
-#blogContent{
-    max-height: 293px;
+
+#blogContent {
+    max-height: 303px;
     margin-top: -7px;
     margin-bottom: -7px;
     padding-top: 5px !important;
     padding-bottom: 5px !important;
 }
+
 .blogPost img {
     width: 85px;
     height: 85px;
     border-radius: 2px;
 }
-.blogPost{
+
+#pinnedIcon {
+    background-image: url(../ico/pinned.gif);
+    background-size: cover;
+    height: 10px;
+    width: 10px;
+    margin-left: 5px;
+    position: relative;
+    top: 1px;
+}
+
+.blogPost {
     padding: 5px 5px 5px 5px;
     margin: 0px 0px -10px 0px;
     max-width: 95%;
 }
-fieldset.blogPost{
+
+fieldset.blogPost {
     margin-bottom: 2px !important;
-}  
-#blogSearch{
+}
+
+#blogSearch {
     margin-left: 2px;
     width: 93.30%;
 }
+
 .downloadstable td {
-    margin-bottom: -10px; /* Adjust the negative value to counteract the tr margin */
+    margin-bottom: -10px;
+    /* Adjust the negative value to counteract the tr margin */
 }
-.filetype{
+
+.filetype {
     background-size: cover;
     height: 16px;
     width: 16px;
@@ -88,22 +113,27 @@ fieldset.blogPost{
     margin: 0 0 0 0 !important;
     padding: 0 0 0 0 !important;
 }
-.document{
+
+.document {
     background-image: url(../ico/xp/document.ico);
 }
-.archive{
+
+.archive {
     background-image: url(../ico/xp/archive.ico);
 }
-.open_directory{
+
+.open_directory {
     background-image: url(../ico/xp/diropen.ico);
 }
-.closed_directory{
+
+.closed_directory {
     background-image: url(../ico/xp/dirclosed.ico);
 }
-.shortcut{
+
+.shortcut {
     background-image: url(../ico/xp/archive.ico);
 }
-  
+
 
 
 /*! XP.css v0.2.6 - https://botoxparty.github.io/XP.css/ */

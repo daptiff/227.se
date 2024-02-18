@@ -39,7 +39,7 @@ body{
     height: 298px;
 }
 #blogContent{
-    max-height: 300px;
+    max-height: 309px;
     padding-top: 5px !important;
     padding-bottom: 5px !important;
 }
@@ -47,6 +47,15 @@ body{
     width: 80px;
     height: 80px;
     border-radius: 2px;
+}
+#pinnedIcon {
+    background-image: url(../ico/pinned.gif);
+    background-size: cover;
+    height: 9px;
+    width: 9px;
+    margin-left: 5px;
+    position: relative;
+    top: 4px;
 }
 .blogPost{
     margin-bottom: 2px !important;
