@@ -54,14 +54,14 @@ body {
 }
 #notepad{
     font-family: comic_sans !important;
-    max-width: 448px;
+
 }
 .notepadFieldset{
     overflow-y: scroll;
 }
 .notepadFieldset p{
     margin: 5px 0px 0px 2px;
-    max-width: 255px;
+    max-width: 600px;
 }
 p[contenteditable="true"] {
     margin: 0;
