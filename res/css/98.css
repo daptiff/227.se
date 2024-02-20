@@ -7,7 +7,9 @@ body{
     background-attachment: fixed;
     background-repeat: no-repeat;
 }
-
+#selectedImage{
+    height: 503px;
+}
 .title-wrap a {
     font-family: 'Times New Roman', Times, serif;
     text-decoration: none;
@@ -135,6 +137,15 @@ body{
 }
 .shortcut{
     background-image: url(../ico/98/shortcut.png);
+}
+.theme{
+    background-image: url(../ico/98/theme.png);
+}
+.executable{
+    background-image: url(../ico/98/executable.png);
+}
+.image{
+    background-image: url(../ico/98/image.png);
 }
 /*! 98.css v0.1.20 - https://github.com/jdan/98.css */
 @font-face {

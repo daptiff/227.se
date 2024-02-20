@@ -6,6 +6,9 @@ body {
     background-attachment: fixed;
     background-repeat: no-repeat;
 }
+#selectedImage{
+    height: 506px;
+}
 
 .content-wrap {
     margin: -8px -6px -11px -6px;
@@ -135,6 +138,9 @@ fieldset.blogPost {
 }
 
 /**/
+#WXP_fix1{
+    margin-bottom: -9px;
+}
 .fileexpFieldset{
     margin: 0px -5px 0 -5px;
     padding: 0px 0 0 0;
@@ -167,6 +173,15 @@ fieldset.blogPost {
 
 .shortcut {
     background-image: url(../ico/xp/shortcut.ico);
+}
+.theme{
+    background-image: url(../ico/xp/theme.ico);
+}
+.executable{
+    background-image: url(../ico/xp/executable.ico);
+}
+.image{
+    background-image: url(../ico/xp/image.ico);
 }
 
 

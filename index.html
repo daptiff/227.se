@@ -21,7 +21,7 @@
 
     <div class="header">
         <p class="title-wrap">
-            <a href="" id="top">selflessness.online</a>
+            <a href="https://selflessness.online" id="top">selflessness.online</a>
         </p>
         <div class="scrollWrap">
             <div class="scrollText">
@@ -34,7 +34,7 @@
         <div class="win7 win7window window1" style="display: flex; justify-content: center;">
             <div class="window glass active" style="max-width: 999px">
                 <div class="title-bar">
-                    <div class="title-bar-text">fj/c compact disc</div>
+                    <div class="title-bar-text">Media Player</div>
                     <div class="title-bar-controls">
                         <button aria-label="Minimize"></button>
                         <button aria-label="Maximize"></button>
@@ -44,7 +44,7 @@
                 <div class="window-body has-space">
                     <div class="content-wrap">
                         <div class="content">
-                            <img src="res/gif/cdspin advert (2).gif" width="374px">
+                            <img src="res/gif/advert1.gif" width="374px">
                         </div>
                     </div>
 
@@ -286,7 +286,7 @@
                         <button aria-label="Close"></button>
                     </div>
                 </div>
-                <div class="window-body has-space filexplorer" id="filexplorer_pg1">
+                <div class="window-body has-space filexplorer" id="WXP_fix1">
                     <ul class="menubar98_XP" style="margin-left: -38px;" id="fileMenubar">
                         <li>
                             <span style="text-decoration: underline;">F</span>ile
@@ -302,7 +302,7 @@
                         </li>
 
                     </ul>
-                    <fieldset class="fileexpFieldset sunken-panel">
+                    <fieldset class="fileexpFieldset has-scrollbar sunken-panel" id="file_page1" style="height: 170px; overflow-y: scroll;">
 
                         <table style="width: 100%;" class="downloadstable" id="archive" id="myTable">
                             <tbody>
@@ -311,6 +311,26 @@
                                     <td class="column2">Date modified</td>
                                     <td class="column3">Type</td>
                                     <td class="column4top">Size</td>
+                                </tr>
+                                <tr>
+                                    <td class="column1">
+                                        <div class="filetype executable"></div>
+                                        <a href="gallery"
+                                            style="color: black;" class="column-link">gallery.exe</a>
+                                    </td>
+                                    <td class="column2">2023/10/25 23:00</td>
+                                    <td class="column3">Application</td>
+                                    <td class="column4">5,10 MB</td>
+                                </tr>
+                                <tr>
+                                    <td class="column1">
+                                        <div class="filetype closed_directory"></div>
+                                        <a onclick="toggleWindows('file_page2')" style="color: black;"
+                                            class="column-link">Shortcuts</a>
+                                    </td>
+                                    <td class="column2">2024/02/13 17:25</td>
+                                    <td class="column3">File Folder</td>
+                                    <td class="column4">6 KB</td>
                                 </tr>
                                 <tr>
                                     <td class="column1">
@@ -364,47 +384,11 @@
                                     <td class="column3">PDF document</td>
                                     <td class="column4">723 KB</td>
                                 </tr>
-                                <tr>
-                                    <td class="column1">
-                                        <div class="filetype closed_directory"></div>
-                                        <a onclick="shortcuts_link()" style="color: black;"
-                                            class="column-link">Shortcuts</a>
-                                    </td>
-                                    <td class="column2">2024/02/13 17:25</td>
-                                    <td class="column3">File Folder</td>
-                                    <td class="column4">6 KB</td>
-                                </tr>
-                                <tr>
-                                    <td class="column1"> </td>
-                                    <td class="column2"> </td>
-                                    <td class="column3"> </td>
-                                    <td class="column4"> </td>
-                                </tr>
                             </tbody>
                         </table>
                     </fieldset>
-                </div>
 
-                <div class="window-body has-space filexplorer" id="filexplorer_pg2" style="display: none;"
-                    style="height: 170px;">
-
-                    <ul class="menubar98_XP" style="margin-left: -38px;" id="fileMenubar">
-                        <li>
-                            <span style="text-decoration: underline;">F</span>ile
-                        </li>
-                        <li>
-                            <span style="text-decoration: underline;">E</span>dit
-                        </li>
-                        <li>
-                            <span style="text-decoration: underline;">S</span>earch
-                        </li>
-                        <li>
-                            <span style="text-decoration: underline;">H</span>elp
-                        </li>
-
-                    </ul>
-
-                    <fieldset class="fileexpFieldset sunken-panel">
+                    <fieldset class="fileexpFieldset has-scrollbar sunken-panel" id="file_page2" hidden style="height: 170px; overflow-y: scroll;">
 
                         <table style="width: 100%;" class="downloadstable" id="archive" id="myTable">
                             <tbody>
@@ -417,7 +401,7 @@
                                 <tr>
                                     <td class="column1">
                                         <div class="filetype open_directory"></div>
-                                        <a onclick="shortcuts_link()" style="color: black;" class="column-link">..</a>
+                                        <a onclick="toggleWindows('file_page1')" style="color: black;" class="column-link">..</a>
                                     </td>
                                     <td class="column2"> </td>
                                     <td class="column3">File Folder</td>
@@ -472,12 +456,6 @@
                                     <td class="column2">2024/02/15 18:55</td>
                                     <td class="column3">Shortcut</td>
                                     <td class="column4">1 KB</td>
-                                </tr>
-                                <tr>
-                                    <td class="column1"> </td>
-                                    <td class="column2"> </td>
-                                    <td class="column3"> </td>
-                                    <td class="column4"> </td>
                                 </tr>
                             </tbody>
                         </table>
@@ -715,24 +693,24 @@
         });
     </script>
 
-    <script> // FILE EXPLORER FOLDERS
-        function shortcuts_link() {
-            // Get references to the div elements
-            var div1 = document.getElementById("filexplorer_pg1");
-            var div2 = document.getElementById("filexplorer_pg2");
+<script> // FILE EXPLORER SWITCH WINDOWS
+    function toggleWindows(visibleFieldsetId) {
+        // Get all fieldsets with the class 'fileexpFieldset'
+        var fieldsets = document.querySelectorAll('.fileexpFieldset');
 
-            // Toggle visibility between div1 and div2
-            if (div1.style.display !== "none") {
-                // Hide div1 and show div2
-                div1.style.display = "none";
-                div2.style.display = "block"; // or "flex" if you want to keep the flex property
+        // Loop through each fieldset
+        fieldsets.forEach(function (fieldset) {
+            // Check if the fieldset has the specified ID
+            if (fieldset.id === visibleFieldsetId) {
+                // If yes, make it visible
+                fieldset.style.display = 'block';
             } else {
-                // Hide div2 and show div1
-                div2.style.display = "none";
-                div1.style.display = "block"; // or "flex" if you want to keep the flex property
+                // If no, hide it
+                fieldset.style.display = 'none';
             }
-        }
-    </script>
+        });
+    }
+</script>
 
     <script> //STORE ,, CHANGE TABS
         document.addEventListener('DOMContentLoaded', function () {

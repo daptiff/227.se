@@ -9,7 +9,9 @@ body{
 .content-wrap{
     margin: 0px 0px -4px 0px;
 }
-
+#selectedImage{
+    height: 492px;
+}
 .title-wrap a {
     font-family: 'Times New Roman', Times, serif;
     text-decoration: none;
@@ -123,6 +125,15 @@ body{
 }
 .shortcut{
     background-image: url(../ico/7/shortcut.ico);
+}
+.theme{
+    background-image: url(../ico/7/theme.ico);
+}
+.executable{
+    background-image: url(../ico/7/executable.ico);
+}
+.image{
+    background-image: url(../ico/7/image.ico);
 }
 
 /*! 7.css v0.16.0 - https://khang-nd.github.io/7.css */
