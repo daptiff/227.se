@@ -185,6 +185,7 @@ p[contenteditable="true"] {
     margin: 0px 5px 0px 0px;
     position: relative;
     top: 3px;
+    display: inline-block;
     
 }
 table {
@@ -199,6 +200,9 @@ td {
 .downloadstable a:active{
     font-weight: 600;
 
+}
+.column1 td{
+    float: left;
 }
 .column1 {
     width: 37.5%;
