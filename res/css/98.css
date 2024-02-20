@@ -104,11 +104,6 @@ body{
 }
 
 /**/
-.W98fix_1{
-    position: relative;
-    left: -5px;
-    margin-top: -2px;
-}
 .fileexpFieldset{
     margin: 0px -8px -8px -8px;
     padding: 0 0 0 0;
