@@ -1,6 +1,9 @@
 body {
     margin-bottom: 7.5em;
 }
+html {
+    -webkit-text-size-adjust: none !important; /* Prevent font scaling in landscape */
+}
 @font-face {
     font-family: stylewars;
     src: url(../font/STYLEWARS\ 2011.ttf);
