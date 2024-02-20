@@ -102,13 +102,15 @@ p[contenteditable="true"] {
     width: 300px;
     overflow: hidden;
     height: 12px;
-    border-radius: 5px;
     font-size: 70%;
     position: relative;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     z-index: -1;
+}
+.W98fix_1{
+    font-size: 99% !important;
 }
 
 
