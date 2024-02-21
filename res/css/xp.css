@@ -6,9 +6,9 @@ body {
     background-attachment: fixed;
     background-repeat: no-repeat;
 }
-#selectedImage{
+/*#selectedImage{
     height: 506px;
-}
+}*/
 
 .content-wrap {
     margin: -8px -6px -11px -6px;

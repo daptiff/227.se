@@ -286,7 +286,7 @@
                         <button aria-label="Close"></button>
                     </div>
                 </div>
-                <div class="window-body has-space filexplorer" id="WXP_fix1">
+                <div class="window-body has-space filexplorer" id="filexplorer_pg1" style="height: fit-content;">
                     <ul class="menubar98_XP" style="margin-left: -38px;" id="fileMenubar">
                         <li>
                             <span style="text-decoration: underline;">F</span>ile
@@ -302,7 +302,7 @@
                         </li>
 
                     </ul>
-                    <fieldset class="fileexpFieldset has-scrollbar sunken-panel" id="file_page1" style="height: 170px; overflow-y: scroll;">
+                    <fieldset class="fileexpFieldset sunken-panel" style="overflow-y: scroll; height: 210px;" id="file_pageIndex">
 
                         <table style="width: 100%;" class="downloadstable" id="archive" id="myTable">
                             <tbody>
@@ -314,23 +314,198 @@
                                 </tr>
                                 <tr>
                                     <td class="column1">
-                                        <div class="filetype executable"></div>
-                                        <a href="gallery"
-                                            style="color: black;" class="column-link">gallery.exe</a>
+                                        <div class="filetype closed_directory"></div>
+                                        <a onclick="toggleWindows('file_pageDocuments');" style="color: black;"
+                                            class="column-link">Documents</a>
                                     </td>
-                                    <td class="column2">2023/10/25 23:00</td>
-                                    <td class="column3">Application</td>
-                                    <td class="column4">5,10 MB</td>
+                                    <td class="column2">2024/02/21 00:11</td>
+                                    <td class="column3">File Folder</td>
+                                    <td class="column4"></td>
                                 </tr>
                                 <tr>
                                     <td class="column1">
                                         <div class="filetype closed_directory"></div>
-                                        <a onclick="toggleWindows('file_page2')" style="color: black;"
+                                        <a onclick="toggleWindows('file_pageMusic');" style="color: black;"
+                                            class="column-link">Music</a>
+                                    </td>
+                                    <td class="column2">2024/02/21 00:04</td>
+                                    <td class="column3">File Folder</td>
+                                    <td class="column4">633,51 MB</td>
+                                </tr>
+                                <tr>
+                                    <td class="column1">
+                                        <div class="filetype closed_directory"></div>
+                                        <a onclick="toggleWindows('file_pagePictures');" style="color: black;"
+                                            class="column-link">Pictures</a>
+                                    </td>
+                                    <td class="column2">2023/12/29 09:32</td>
+                                    <td class="column3">File Folder</td>
+                                    <td class="column4">12,08 MB</td>
+                                </tr>
+                                <tr>
+                                    <td class="column1">
+                                        <div class="filetype closed_directory"></div>
+                                        <a onclick="toggleWindows('file_pageVideos');" style="color: black;"
+                                            class="column-link">Videos</a>
+                                    </td>
+                                    <td class="column2">2024/02/19 19:44</td>
+                                    <td class="column3">File Folder</td>
+                                    <td class="column4"></td>
+                                </tr>
+                                <tr>
+                                    <td class="column1">
+                                        <div class="filetype closed_directory"></div>
+                                        <a onclick="toggleWindows('file_pageShortcuts');" style="color: black;"
                                             class="column-link">Shortcuts</a>
                                     </td>
-                                    <td class="column2">2024/02/13 17:25</td>
+                                    <td class="column2">2024/02/19 19:44</td>
                                     <td class="column3">File Folder</td>
                                     <td class="column4">6 KB</td>
+                                </tr>
+                                <tr>
+                                    <td class="column1">
+                                        <div class="filetype theme"></div>
+                                        <a onclick="switchThemeAndBackground('res/css/7.css');" style="color: black;"
+                                            class="column-link">7.ini</a>
+                                    </td>
+                                    <td class="column2">2024/02/20 19:42</td>
+                                    <td class="column3">INI File</td>
+                                    <td class="column4">11 KB</td>
+                                </tr>
+                                <tr>
+                                    <td class="column1">
+                                        <div class="filetype theme"></div>
+                                        <a onclick="switchThemeAndBackground('res/css/xp.css');" style="color: black;"
+                                            class="column-link">xp.ini</a>
+                                    </td>
+                                    <td class="column2">2024/02/20 19:42</td>
+                                    <td class="column3">INI File</td>
+                                    <td class="column4">10 KB</td>
+                                </tr>
+                                <tr>
+                                    <td class="column1">
+                                        <div class="filetype theme"></div>
+                                        <a onclick="switchThemeAndBackground('res/css/98.css');" style="color: black;"
+                                            class="column-link">98.ini</a>
+                                    </td>
+                                    <td class="column2">2024/02/20 19:43</td>
+                                    <td class="column3">INI File</td>
+                                    <td class="column4">10 KB</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </fieldset>
+
+                    <fieldset class="fileexpFieldset sunken-panel" style="overflow-y: scroll; height: 210px;" id="file_pagePictures" hidden>
+
+                        <table style="width: 100%;" class="downloadstable" id="archive" id="myTable">
+                            <tbody>
+                                <tr style="height: 25px;">
+                                    <td class="column1">Name</td>
+                                    <td class="column2">Date modified</td>
+                                    <td class="column3">Type</td>
+                                    <td class="column4top">Size</td>
+                                </tr>
+                                <tr>
+                                    <td class="column1">
+                                        <div class="filetype open_directory"></div>
+                                        <a onclick="toggleWindows('file_pageIndex')" style="color: black;"
+                                            class="column-link">..</a>
+                                    </td>
+                                    <td class="column2"> </td>
+                                    <td class="column3">File Folder</td>
+                                    <td class="column4"> </td>
+                                </tr>
+                                <tr>
+                                    <td class="column1">
+                                        <div class="filetype image"></div>
+                                        <!-- <a onclick="changeImageSource('https://f4.bcbits.com/img/0034682556_10.jpg');" style="color: black;">fjc ad1.jpg</a> -->
+                                        <a href="https://f4.bcbits.com/img/0034682556_10.jpg" style="color: black;">fjc ad1.jpg</a>
+                                    </td>
+                                    <td class="column2">2023/12/29 09:31</td>
+                                    <td class="column3">JPG File</td>
+                                    <td class="column4">265 KB</td>
+                                </tr>
+                                <tr>
+                                    <td class="column1">
+                                        <div class="filetype image"></div>
+                                        <!-- <a onclick="changeImageSource('https://f4.bcbits.com/img/0034682563_10.jpg');" style="color: black;">fjc ad4.jpg</a> -->
+                                        <a href="https://f4.bcbits.com/img/0034682563_10.jpg" style="color: black;">fjc ad4.jpg</a>
+                                    </td>
+                                    <td class="column2">2023/12/29 09:32</td>
+                                    <td class="column3">JPG File</td>
+                                    <td class="column4">281 KB</td>
+                                </tr>
+                                <tr>
+                                    <td class="column1">
+                                        <div class="filetype image"></div>
+                                        <!-- <a onclick="changeImageSource('res/gif/advert1.gif');" style="color: black;">advert1.gif</a> -->
+                                        <a href="res/gif/advert1.gif" style="color: black;">advert1.gif</a>
+                                    </td>
+                                    <td class="column2">2024/01/04 17:11</td>
+                                    <td class="column3">GIF File</td>
+                                    <td class="column4">265 KB</td>
+                                </tr>
+                                <tr>
+                                    <td class="column1">
+                                        <div class="filetype image"></div>
+                                        <!-- <a onclick="changeImageSource('res/gif/selflessness online advert.gif');" style="color: black;">advert2.gif</a> -->
+                                        <a href="res/gif/selflessness online advert.gif" style="color: black;">advert2.gif</a>
+                                    </td>
+                                    <td class="column2">2024/02/19 19:44</td>
+                                    <td class="column3">GIF File</td>
+                                    <td class="column4">9,82 MB</td>
+                                </tr>
+                                
+
+                            </tbody>
+                        </table>
+                    </fieldset>
+
+                    <fieldset class="fileexpFieldset sunken-panel" style="overflow-y: scroll; height: 210px;" id="file_pageVideos" hidden>
+
+                        <table style="width: 100%;" class="downloadstable" id="archive" id="myTable">
+                            <tbody>
+                                <tr style="height: 25px;">
+                                    <td class="column1">Name</td>
+                                    <td class="column2">Date modified</td>
+                                    <td class="column3">Type</td>
+                                    <td class="column4top">Size</td>
+                                </tr>
+                                <tr>
+                                    <td class="column1">
+                                        <div class="filetype open_directory"></div>
+                                        <a onclick="toggleWindows('file_pageIndex')" style="color: black;"
+                                            class="column-link">..</a>
+                                    </td>
+                                    <td class="column2"> </td>
+                                    <td class="column3">File Folder</td>
+                                    <td class="column4"> </td>
+                                </tr>
+
+                            </tbody>
+                        </table>
+                    </fieldset>
+
+                    <fieldset class="fileexpFieldset sunken-panel" style="overflow-y: scroll; height: 210px;" id="file_pageMusic" hidden>
+
+                        <table style="width: 100%;" class="downloadstable" id="archive" id="myTable">
+                            <tbody>
+                                <tr style="height: 25px;">
+                                    <td class="column1">Name</td>
+                                    <td class="column2">Date modified</td>
+                                    <td class="column3">Type</td>
+                                    <td class="column4top">Size</td>
+                                </tr>
+                                <tr>
+                                    <td class="column1">
+                                        <div class="filetype open_directory"></div>
+                                        <a onclick="toggleWindows('file_pageIndex')" style="color: black;"
+                                            class="column-link">..</a>
+                                    </td>
+                                    <td class="column2"> </td>
+                                    <td class="column3">File Folder</td>
+                                    <td class="column4"> </td>
                                 </tr>
                                 <tr>
                                     <td class="column1">
@@ -374,21 +549,11 @@
                                     <td class="column3">WinRAR archive</td>
                                     <td class="column4">20,90 MB</td>
                                 </tr>
-                                <tr>
-                                    <td class="column1">
-                                        <div class="filetype document"></div>
-                                        <a href style="color: black;" class="column-link">thepiracybible.pdf</a>
-                                        <i>(private)</i>
-                                    </td>
-                                    <td class="column2">2024/02/01 04:10</td>
-                                    <td class="column3">PDF document</td>
-                                    <td class="column4">723 KB</td>
-                                </tr>
                             </tbody>
                         </table>
                     </fieldset>
 
-                    <fieldset class="fileexpFieldset has-scrollbar sunken-panel" id="file_page2" hidden style="height: 170px; overflow-y: scroll;">
+                    <fieldset class="fileexpFieldset sunken-panel" style="overflow-y: scroll; height: 210px;" id="file_pageDocuments" hidden>
 
                         <table style="width: 100%;" class="downloadstable" id="archive" id="myTable">
                             <tbody>
@@ -401,7 +566,32 @@
                                 <tr>
                                     <td class="column1">
                                         <div class="filetype open_directory"></div>
-                                        <a onclick="toggleWindows('file_page1')" style="color: black;" class="column-link">..</a>
+                                        <a onclick="toggleWindows('file_pageIndex')" style="color: black;"
+                                            class="column-link">..</a>
+                                    </td>
+                                    <td class="column2"> </td>
+                                    <td class="column3">File Folder</td>
+                                    <td class="column4"> </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </fieldset>
+
+                    <fieldset class="fileexpFieldset sunken-panel" style="overflow-y: scroll; height: 210px;" id="file_pageShortcuts" hidden>
+
+                        <table style="width: 100%;" class="downloadstable" id="archive" id="myTable">
+                            <tbody>
+                                <tr style="height: 25px;">
+                                    <td class="column1">Name</td>
+                                    <td class="column2">Date modified</td>
+                                    <td class="column3">Type</td>
+                                    <td class="column4top">Size</td>
+                                </tr>
+                                <tr>
+                                    <td class="column1">
+                                        <div class="filetype open_directory"></div>
+                                        <a onclick="toggleWindows('file_pageIndex')" style="color: black;"
+                                            class="column-link">..</a>
                                     </td>
                                     <td class="column2"> </td>
                                     <td class="column3">File Folder</td>
@@ -460,6 +650,8 @@
                             </tbody>
                         </table>
                     </fieldset>
+
+
                 </div>
             </div>
         </div>
@@ -553,7 +745,7 @@
                     <fieldset id="notepad" class="sunken-panel notepadFieldset has-scrollbar"
                         style="height: 160px; overflow-y: scroll;">
                         <p contenteditable="true" style="max-width: 375px !important;">
-                            last update: february 20th 2024<br><br>
+                            last update: february 21st 2024<br><br>
                         </p>
                     </fieldset>
                 </div>
@@ -659,8 +851,6 @@
         </div>
     </div>
 
-    
-
     <script> // CONTROL PANEL SWITCH THEMES
         function switchThemeAndBackground(theme, backgroundImage) {
             var oldLink = document.getElementById('stylesheet');
@@ -693,26 +883,26 @@
         });
     </script>
 
-<script> // FILE EXPLORER SWITCH WINDOWS
-    function toggleWindows(visibleFieldsetId) {
-        // Get all fieldsets with the class 'fileexpFieldset'
-        var fieldsets = document.querySelectorAll('.fileexpFieldset');
+    <script> // FILE EXPLORER SWITCH WINDOWS
+        function toggleWindows(visibleFieldsetId) {
+            // Get all fieldsets with the class 'fileexpFieldset'
+            var fieldsets = document.querySelectorAll('.fileexpFieldset');
 
-        // Loop through each fieldset
-        fieldsets.forEach(function (fieldset) {
-            // Check if the fieldset has the specified ID
-            if (fieldset.id === visibleFieldsetId) {
-                // If yes, make it visible
-                fieldset.style.display = 'block';
-            } else {
-                // If no, hide it
-                fieldset.style.display = 'none';
-            }
-        });
-    }
-</script>
+            // Loop through each fieldset
+            fieldsets.forEach(function (fieldset) {
+                // Check if the fieldset has the specified ID
+                if (fieldset.id === visibleFieldsetId) {
+                    // If yes, make it visible
+                    fieldset.style.display = 'block';
+                } else {
+                    // If no, hide it
+                    fieldset.style.display = 'none';
+                }
+            });
+        }
+    </script>
 
-    <script> //STORE ,, CHANGE TABS
+    <script> // STORE ,, CHANGE TABS
         document.addEventListener('DOMContentLoaded', function () {
             // Get all the tab buttons and fieldsets
             const tabButtons = document.querySelectorAll('[role="tab"]');
@@ -784,6 +974,20 @@
         }
         changeTitle();
     </script>
+
+    <script>
+        // SHOW IMAGE ON SCREEN
+        function changeImageSource(newImagePath) {
+            var imgElement = document.getElementById('selectedImage');
+            var wpWrapElement = document.getElementById('mpWrap');
+
+            setTimeout(function () {
+                imgElement.src = newImagePath;
+                wpWrapElement.style.display = 'block';
+            }, 100);
+        }
+    </script>
+
 </body>
 
 </html>

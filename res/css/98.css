@@ -7,9 +7,9 @@ body{
     background-attachment: fixed;
     background-repeat: no-repeat;
 }
-#selectedImage{
+/*#selectedImage{
     height: 503px;
-}
+}*/
 .title-wrap a {
     font-family: 'Times New Roman', Times, serif;
     text-decoration: none;

@@ -12,6 +12,10 @@ html {
     font-family: comic_sans;
     src: url(../font/COMIC.TTF)
 }
+
+#selectedImage{
+    height: 250px;
+}
 /* WINDOW POSITIONS */
 .win7 {
     width: auto;
@@ -24,7 +28,6 @@ html {
 .row{
     display: flex;
     justify-content: center;
-    height: fit-content;
 }
 .window1000{
     top: -9px
@@ -197,10 +200,10 @@ td {
     text-overflow: ellipsis;
     box-sizing: border-box;
 }
-.downloadstable a:active{
+/*.downloadstable a:active{
     font-weight: 600;
 
-}
+}*/
 .column1 td{
     float: left;
 }

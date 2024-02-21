@@ -9,9 +9,9 @@ body{
 .content-wrap{
     margin: 0px 0px -4px 0px;
 }
-#selectedImage{
+/*#selectedImage{
     height: 492px;
-}
+}*/
 .title-wrap a {
     font-family: 'Times New Roman', Times, serif;
     text-decoration: none;
