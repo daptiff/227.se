@@ -80,7 +80,7 @@ p[contenteditable="true"] {
 /* TOP TITLE */
 /* !! MORE STYLES IN FRAMEWORKS */
 .header{
-    margin: 1.25em 0em 3.5em 0em;
+    margin: 45px 0 70px 0;
 }
 .topTitle {
     width: auto;
@@ -105,10 +105,10 @@ p[contenteditable="true"] {
     color: blue;
 }
 .scrollWrap {
-    width: 300px;
+    width: 100px;
     overflow: hidden;
     height: 12px;
-    font-size: 70%;
+    font-size: 100% !important;
     position: relative;
     top: 50%;
     left: 50%;
