@@ -183,7 +183,9 @@ fieldset.blogPost {
 .image{
     background-image: url(../ico/xp/image.ico);
 }
-
+.video{
+    background-image: url(../ico/xp/video.ico);
+}
 
 
 /*! XP.css v0.2.6 - https://botoxparty.github.io/XP.css/ */

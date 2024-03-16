@@ -147,6 +147,9 @@ body{
 .image{
     background-image: url(../ico/98/image.png);
 }
+.video{
+    background-image: url(../ico/98/video.ico);
+}
 /*! 98.css v0.1.20 - https://github.com/jdan/98.css */
 @font-face {
     font-family: "Pixelated MS Sans Serif";

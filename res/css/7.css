@@ -1,6 +1,6 @@
 /* 7 EDITS */
 body{
-    background-image: url(../img/7.jpg) !important;
+    background-image: url('../img/7.jpg') !important;
     background-size: cover;
     background-position: center center;
     background-attachment: fixed;
@@ -134,6 +134,9 @@ body{
 }
 .image{
     background-image: url(../ico/7/image.ico);
+}
+.video{
+    background-image: url(../ico/7/video.ico);
 }
 
 /*! 7.css v0.16.0 - https://khang-nd.github.io/7.css */
