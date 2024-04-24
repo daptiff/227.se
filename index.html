@@ -3,25 +3,43 @@
 
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>‎</title>
+    <title></title>
+    <!--https://github.com/daptiff/selflessness.online-->
 </head>
 
 <body>
-    <center>
         <div style="justify-content: center; display: flex;">
             <img src="res/gif/swagnetorg.gif" width="350px">
         </div>
-
-    <div>
-        <a href="20240318">
-            20240318
+    <center style="margin-bottom: 1em;">
+        <a href="https://soundcloud.com/djselflessness">
+            20160423
         </a>
         <br>
-        <a href="https://soundcloud.com/djselflessness">
-            20240423
+        <a href="20240318">
+            20160318
         </a>
-    </div>
-</center>
+    </center>
+
+
 </body>
+<script> // CONTENT
+    var names = [
+    "sw4gnet.org",
+
+    ];
+
+    document.title = "sw4gnet.org"
+
+    function changeTitle() {
+        var index = 0;
+
+        setInterval(function () {
+            document.title = names[index];
+            index = (index + 1) % names.length;
+        }, 500);
+    }
+    changeTitle();
+</script>
 
 </html>
