@@ -2,103 +2,118 @@
 <html lang="en">
 
 <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title></title>
-    <link rel="icon" type="image/x-icon" href="/res/ico/swagnet.png">
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>★eurolyfe.se★</title>
 
-    <!--https://github.com/daptiff/selflessness.online-->
     <style>
         body {
-            background-image: url(https://i.pinimg.com/736x/cf/99/cd/cf99cdede4bc145fa84ef90584180ed8.jpg);
+            background-image: url(bg.jpg);
+            background-repeat: repeat;
+            background-size: 35%;
         }
 
-        .video-container {
-            display: flex;
-            flex-direction: row;
-            justify-content: center;
-            margin-top: 20px;
-            gap: 10px;
+        @font-face {
+            font-family: afterglam;
+            src: url("afterglam.otf") format("opentype");
         }
 
-        .video-container iframe {
-            margin: 0 5px;
+        .button {
+            margin: 0px 10px 0 10px;
+            font-family: afterglam; color: white; font-size: 100%;
         }
 
-        /* Media query for phones (max-width: 768px) */
-        @media (max-width: 900px) {
-            .video-container {
-                flex-direction: column;
-                align-items: center;
-            }
+        a:link {
+            text-decoration: none;
+        }
 
-            .video-container iframe {
-                margin: 5px 0;
-            }
+        a:visited {
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: none;
+        }
+
+        a:active {
+            text-decoration: none;
+        }
+
+        .hover-link {
+            position: relative;
+            display: inline-block;
+        }
+
+        .hover-link::after {
+            content: "";
+            position: absolute;
+            top: -20px;
+            /* Adjust this value based on the image size */
+            left: 50%;
+            transform: translateX(-50%);
+            width: 100px;
+            /* Image width */
+            height: 63px;
+            /* Image height */
+            background-image: url('hover.png');
+            background-size: cover;
+            background-repeat: no-repeat;
+            opacity: 0;
+            transition: ease 0.05s;
+            pointer-events: none;
+        }
+
+        .hover-link:hover::after {
+            opacity: 1;
+            z-index: 1;
         }
     </style>
 </head>
 
-
-
 <body>
+
     <div style="justify-content: center; display: flex;">
-        <a href="">
-            <img src="res/gif/swagnetorg.gif" width="350px">
+        <a href="" class="hover-link2">
+            <img src="logo.png" style="mix-blend-mode: hard-light; opacity: 95%; z-index: -1; margin-top: 20px;" width="500px">
         </a>
+
     </div>
 
     <div style="justify-content: center; display: flex;">
-        <a href="https://soundcloud.com/djselflessness/hatse-born-with-the-compulsive-need-to-do-my-own-thang">
-            <img src="https://i1.sndcdn.com/artworks-GbRzH2GgyMB1ZgNk-6NOpLA-t500x500.jpg" width="220px">
+        <a href="https://soundcloud.com/djselflessness" class="hover-link">
+            <p class="button">music</p>
         </a>
-    </div>
-
-    <div style="justify-content: center; display: flex;">
-
-        <p style="font-size: normal; font-weight: bold; color: white;">
-            <a href="https://soundcloud.com/djselflessness/hatse-born-with-the-compulsive-need-to-do-my-own-thang"
-                style="color: blue; text-decoration: none;">
-                *NEW TRACK JUNE 3rd 2024* <br>hat£e ~ Born with the compulsive need to do my own Thang #2k17 #Swag
-                ((d(-_-)b))
-            </a>
-        </p>
-    </div>
-
-    <div class="video-container">
-        <iframe width="280" height="158" src="https://www.youtube.com/embed/BXKCeY3yVFo?si=mwmruN-6g6DTXdVw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-        <iframe width="280" height="158" src="https://www.youtube.com/embed/bCQiauHtmMQ?si=QWyyH-DhojDHplQB" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-        <iframe width="280" height="158" src="https://www.youtube.com/embed/VQ0IVnzPKQs?si=je6r62YEdhO7WHo3" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-    </div>
-
-    <div style="justify-content: center; display: flex;">
-
-        <p style="font-size: normal; font-weight: bold; color: white;">
-            <a href=""
-                style="color: blue; text-decoration: none; font-size: x-large;">
-                **oFFLINE bOYS (pROD dJ sELFLESSNESS)**
-            </a>
-        </p>
-    </div>
-
-    <div style="justify-content: center; display: flex; margin-top: 50px;">
-        <a href="res/img/swggnet.jpg">
-            <img src="res/img/swggnet.jpg" width="250px" style="margin-top: 10px;">
+        <a href="https://www.instagram.com/sw4gnet/" class="hover-link">
+            <p class="button">instagram</p>
         </a>
-    </div>
-
-    <div style="justify-content: center; display: flex; margin-top: -10px;">
-        <p style="color: blue; font-style: italic; font-weight: bold;">sw4gnet © 2028 ~ *<a href="20240318.html" style="text-decoration: underline; color: blue;">old</a>*</p>
+        <a href="https://salemrecords.bandcamp.com/" class="hover-link">
+            <p class="button">store</p>
+        </a>
     </div>
 
 </body>
+
 <script> // CONTENT
     var names = [
-        "sw4gnet.org",
+        "eurolyfe.se",
+        "eurolyfe.se★",
+        "eurolyfe.se★★",
+        "eurolyfe.se★★★",
+        "eurolyfe.se★★★★",
+        "eurolyfe.se★★★★★",
+        "eurolyfe.se★★★★",
+        "eurolyfe.se★★★",
+        "eurolyfe.se★★",
+        "eurolyfe.se★",
+        "eurolyfe.se", 
+        "eurolyfe.se", 
+        "eurolyfe.se", 
+        "eurolyfe.se", 
+        "eurolyfe.se", 
 
     ];
 
-    document.title = "sw4gnet.org"
+    document.title = "eurolyfe.se"
 
     function changeTitle() {
         var index = 0;
@@ -106,7 +121,7 @@
         setInterval(function () {
             document.title = names[index];
             index = (index + 1) % names.length;
-        }, 500);
+        }, 250);
     }
     changeTitle();
 </script>
