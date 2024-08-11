@@ -4,7 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>★eurolyfe.se★</title>
+    <title>eurolyfe.se</title>
+    <link rel="icon" type="image/x-icon" href="favicon.png">
 
     <style>
         body {
@@ -18,9 +19,24 @@
             src: url("afterglam.otf") format("opentype");
         }
 
+        @media only screen and (max-width: 600px) {
+    #logo {
+        width: 80%;
+        margin: 0 auto; /* Add this to ensure horizontal centering */
+        display: block; /* Ensure the logo is a block-level element */
+    }
+    #logoWrap {
+        justify-content: center;
+        display: flex;
+    }
+}
+
+
         .button {
             margin: 0px 10px 0 10px;
-            font-family: afterglam; color: white; font-size: 100%;
+            font-family: afterglam;
+            color: white;
+            font-size: 100%;
         }
 
         a:link {
@@ -48,13 +64,10 @@
             content: "";
             position: absolute;
             top: -20px;
-            /* Adjust this value based on the image size */
             left: 50%;
             transform: translateX(-50%);
             width: 100px;
-            /* Image width */
             height: 63px;
-            /* Image height */
             background-image: url('hover.png');
             background-size: cover;
             background-repeat: no-repeat;
@@ -72,9 +85,9 @@
 
 <body>
 
-    <div style="justify-content: center; display: flex;">
-        <a href="" class="hover-link2">
-            <img src="logo.png" style="mix-blend-mode: hard-light; opacity: 95%; z-index: -1; margin-top: 20px;" width="500px">
+    <div style="justify-content: center; display: flex;" id="logoWrap">
+        <a href="">
+            <img src="logo.png" style="mix-blend-mode: hard-light; opacity: 95%; z-index: -1; margin-top: 20px;" width="500px" id="logo">
         </a>
 
     </div>
@@ -86,8 +99,8 @@
         <a href="https://www.instagram.com/sw4gnet/" class="hover-link">
             <p class="button">instagram</p>
         </a>
-        <a href="https://salemrecords.bandcamp.com/" class="hover-link">
-            <p class="button">store</p>
+        <a href="https://drive.google.com/drive/u/0/folders/1e03Q-BcK_TYJrfD3Wpg4o0903cyuu-67" class="hover-link">
+            <p class="button">drive</p>
         </a>
     </div>
 
@@ -105,11 +118,11 @@
         "eurolyfe.se★★★",
         "eurolyfe.se★★",
         "eurolyfe.se★",
-        "eurolyfe.se", 
-        "eurolyfe.se", 
-        "eurolyfe.se", 
-        "eurolyfe.se", 
-        "eurolyfe.se", 
+        "eurolyfe.se",
+        "eurolyfe.se",
+        "eurolyfe.se",
+        "eurolyfe.se",
+        "eurolyfe.se",
 
     ];
 
