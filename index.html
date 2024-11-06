@@ -7,6 +7,8 @@
     <title>eurolyfe.se</title>
     <link rel="icon" type="image/x-icon" href="favicon.png">
 
+    <link rel="stylesheet" href="https://unpkg.com/7.css">
+
     <style>
         body {
             background-image: url(bg.jpg);
@@ -20,23 +22,26 @@
         }
 
         @media only screen and (max-width: 600px) {
-    #logo {
-        width: 80%;
-        margin: 0 auto; /* Add this to ensure horizontal centering */
-        display: block; /* Ensure the logo is a block-level element */
-    }
-    #logoWrap {
-        justify-content: center;
-        display: flex;
-    }
-}
+            #logo {
+                width: 80%;
+                margin: 0 auto;
+                /* Add this to ensure horizontal centering */
+                display: block;
+                /* Ensure the logo is a block-level element */
+            }
+
+            #logoWrap {
+                justify-content: center;
+                display: flex;
+            }
+        }
 
 
         .button {
             margin: 0px 10px 0 10px;
             font-family: afterglam;
             color: white;
-            font-size: 100%;
+            font-size: 150%;
         }
 
         a:link {
@@ -59,9 +64,11 @@
             0% {
                 transform: scale(1);
             }
+
             50% {
                 transform: scale(1.2);
             }
+
             100% {
                 transform: scale(1);
             }
@@ -99,7 +106,8 @@
 
     <div style="justify-content: center; display: flex;" id="logoWrap">
         <a href="">
-            <img src="logo.png" style="mix-blend-mode: hard-light; opacity: 95%; z-index: -1; margin-top: 20px;" width="500px" id="logo">
+            <img src="logo.png" style="mix-blend-mode: hard-light; opacity: 95%; z-index: -1; margin-top: 20px;"
+                width="500px" id="logo">
         </a>
 
     </div>
@@ -113,13 +121,40 @@
         </a>
         <a href="https://drive.google.com/drive/u/0/folders/1e03Q-BcK_TYJrfD3Wpg4o0903cyuu-67" class="hover-link">
             <p class="button">beats</p>
-            <p style="position: absolute; top: -3px; left: 5px; rotate: -20deg; color: white; font-size: 70%; width: 100px; z-index: 2; font-family: 'Comic Sans MS', cursive; animation: pulsate 1s infinite; text-align: center;line-height:10px;">free beats<br>4evr</p>
+            <p
+                style="position: absolute; top: -3px; left: 5px; rotate: -20deg; color: white; font-size: 90%; width: 100px; z-index: 2; font-family: 'Comic Sans MS', cursive; animation: pulsate 1s infinite; text-align: center;line-height:10px;">
+                free beats<br>4evr</p>
         </a>
     </div>
 
-    <div style="justify-content: center; display: flex; margin-top: 3em;">
-        <iframe width="560" height="420" src="https://www.youtube.com/embed/L2zpm-E4LgU?si=SqMkQ2iB5WJkb_SU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    <div style="justify-content: center; display: flex;">      
+        <div class="win7 window glass active" style="margin-top: 3em; max-width: fit-content;">
+        <div class="title-bar">
+            <div class="title-bar-text">
+                <span>GARDENOFSAINTS & AKAYFORTYSEVN - ANTON CHIGURH [PROD DJ SELFLESSNESS]</span>
+            </div>
+            <div class="title-bar-controls">
+                <button aria-label="Minimize"></button>
+                <button aria-label="Maximize"></button>
+                <button aria-label="Close"></button>
+            </div>
+        </div>
+        <div class="window-body has-space">
+
+    <div style="justify-content: center; display: flex; margin: -6px;">
+        <iframe width="560" height="420" src="https://www.youtube.com/embed/L2zpm-E4LgU?si=SqMkQ2iB5WJkb_SU"
+            title="YouTube video player" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
     </div>
+
+
+        </div>
+    </div>
+</div>
+
+
+
 
 </body>
 
