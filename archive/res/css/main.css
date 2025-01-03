@@ -1,0 +1,231 @@
+body {
+    margin-bottom: 7.5em;
+}
+html {
+    -webkit-text-size-adjust: none !important; /* Prevent font scaling in landscape */
+}
+@font-face {
+    font-family: stylewars;
+    src: url(../font/STYLEWARS\ 2011.ttf);
+}
+@font-face {
+    font-family: comic_sans;
+    src: url(../font/COMIC.TTF)
+}
+
+#selectedImage{
+    height: 250px;
+}
+/* WINDOW POSITIONS */
+.win7 {
+    width: auto;
+    position: relative;
+}
+.win7window {
+    margin: 0em 0.4em 1.5em 0.4em;
+}
+.row{
+    display: flex;
+    justify-content: center;
+}
+@media only screen and (max-width: 850px) {
+    .row{
+        display: block !important;
+    }
+    .win7{
+        position: initial !important;
+    }
+}
+.window1000{
+    top: -9px
+}
+.window3{
+    top: -25px;
+}
+.window5 {
+    top: -15px;
+}
+.window4{
+    top: -30px;
+}
+.window6{
+    top: -12px
+}
+.blogPost{
+    justify-content: left;
+    display: flex;
+    background-color: white;
+}
+.blogPost span{
+    font-weight: bold;
+}
+.blogText{
+    margin-left: 10px;
+}
+#blogSearch{
+    margin: 0 0 -5px 0;
+}
+#notepad{
+    font-family: comic_sans !important;
+
+}
+.notepadFieldset{
+    overflow-y: scroll;
+}
+.notepadFieldset p{
+    margin: 5px 0px 0px 2px;
+    max-width: 600px;
+}
+p[contenteditable="true"] {
+    margin: 0;
+    padding: 0;
+    outline: none; 
+
+}
+
+
+/* TOP TITLE */
+/* !! MORE STYLES IN FRAMEWORKS */
+.header{
+    margin: 45px 0 70px 0;
+}
+.topTitle {
+    width: auto;
+}
+.title-wrap {
+    display: flex;
+    justify-content: center;
+}
+@keyframes scrollRight {
+    0% {
+        transform: translateX(100%);
+    }
+
+    100% {
+        transform: translateX(-100%);
+    }
+}
+.scrollText {
+    white-space: nowrap;
+    overflow: hidden;
+    animation: scrollRight 7.5s linear infinite;
+    color: blue;
+}
+.scrollWrap {
+    width: 100px;
+    overflow: hidden;
+    height: 12px;
+    font-size: 100% !important;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: -1;
+}
+
+
+/* INDEX MAIN CONTENT CSS */
+.content-wrap {
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+/* STORE CSS */
+.store-wrap {
+    margin: 1.25em 0em 0.1em 0em;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.store-wrap-2 {
+    display: flex;
+    justify-content: center;
+}
+
+.store-item,
+.store-item-unavailable {
+    width: 100%;
+    margin: 0.5em;
+    padding: 0em 1em 0em 1em;
+    text-align: center;
+    overflow: hidden;
+}
+.store-item img {
+    max-width: 100%;
+    height: auto;
+}
+.store-item-title {
+    margin: 5px;
+    font-size: 1rem;
+    font-weight: bold;
+    color: #151717;
+}
+.store-item-desc {
+    font-size: 0.8rem;
+    font-style: italic;
+    color: #151717;
+}
+.store-item-desc-2 {
+    width: 135px;
+    text-align: center;
+    font-size: 0.55rem;
+    color: #151717;
+}
+.store-item a,
+.store-item-unavailable a {
+    color: blue;
+    font-size: 110%;
+}
+.store-item a:hover,
+.store-item-unavailable a:hover {
+    font-style: italic;
+}
+
+/* FILE EXPLORER TABLE */
+.downloadstable{
+    margin: 0px 0px 15px 0px;
+    padding: 5px 5px 0px 5px;
+}
+.filexplorer{
+    margin: -12.5px 0px 0px 0px;
+}
+.filetype {
+    margin: 0px 5px 0px 0px;
+    position: relative;
+    top: 3px;
+    display: inline-block;
+    
+}
+table {
+    width: 100%;
+}
+td {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    box-sizing: border-box;
+}
+/*.downloadstable a:active{
+    font-weight: 600;
+
+}*/
+.column1 td{
+    float: left;
+}
+.column1 {
+    width: 35%;
+}
+.column2 {
+    width: 30%;
+}
+.column3 {
+    width: 20%;
+}
+.column4 .column4top {
+    width: 20%;
+}
+.column4 {
+    text-align: right;
+}
