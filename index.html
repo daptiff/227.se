@@ -5,16 +5,23 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=0.75">
     <title>227.se</title>
-    <link rel="icon" type="image/x-icon" href="favicon.png">
+    <link rel="icon" type="image/x-icon" href=".res/favicon.png">
 
     <link rel="stylesheet" href="https://unpkg.com/7.css">
 
     <style>
-        body {
-            background-image: url(bg.jpg);
-            background-repeat: repeat;
-            background-size: 35%;
-        }
+html, body {
+    height: 100%; /* Make sure the body and html take up the full height */
+    margin: 0;    /* Remove default margin/padding */
+    padding: 0;
+}
+
+body {
+    background-image: url(.res/Background2.png);
+    background-position: center;
+    background-size: auto 100%; /* Height is 100%, width adjusts proportionally */
+}
+
 
         .row {
             display: flex;
@@ -23,7 +30,7 @@
 
         @font-face {
             font-family: 'COMICSANS';
-            src: url('CSMS.ttf');
+            src: url('.res/CSMS.ttf');
         }
 
 
@@ -112,7 +119,7 @@
             transform: translateX(-50%);
             width: 100px;
             height: 63px;
-            background-image: url('hover.png');
+            background-image: url('.res/hover.png');
             background-size: cover;
             background-repeat: no-repeat;
             opacity: 0;
@@ -131,7 +138,7 @@
 
     <div style="justify-content: center; display: flex;" id="logoWrap">
         <a href="">
-            <img src="gif.gif" style="mix-blend-mode: hard-light; z-index: -1; margin: -20px 0px -40px ;"
+            <img src=".res/gif.gif" style="mix-blend-mode: hard-light; z-index: -1; margin: -20px 0px -40px ;"
                 width="300px" id="logo">
         </a>
 
@@ -173,6 +180,19 @@
                     </div>
                 </div>
             </div>
+        </div>
+
+        <div style="position: fixed; bottom: 0; left: 0; margin: 1em;">
+            <span style="color: white;">/</span>
+            <a href="contact" style="color: white;" id="aboutLink">contact</a> 
+            <span style="color: white;">/</span>
+            <a href="https://github.com/daptiff/227.se?tab=readme-ov-file#readme" style="color: white;" id="aboutLink">about</a>
+            <span style="color: white;">/</span>
+            <style>
+                #aboutLink:hover {
+                    text-decoration: underline;
+                }
+            </style>
         </div>
 
 
