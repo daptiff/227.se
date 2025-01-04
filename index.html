@@ -10,17 +10,24 @@
     <link rel="stylesheet" href="https://unpkg.com/7.css">
 
     <style>
-html, body {
-    height: 100%; /* Make sure the body and html take up the full height */
-    margin: 0;    /* Remove default margin/padding */
-    padding: 0;
-}
+        html, body {
+            height: 100%; /* Make sure the body and html take up the full height */
+            margin: 0;    /* Remove default margin/padding */
+            padding: 0;
+        }
 
-body {
-    background-image: url(src/Background2.png);
-    background-position: center;
-    background-size: auto 100%; /* Height is 100%, width adjusts proportionally */
-}
+        body {
+            background-image: url(src/Background.jpg);
+            background-position: center;
+            background-size: auto 100%; /* Height is 100%, width adjusts proportionally */
+        }
+        @media only screen and (max-width: 550px) {
+                body {
+                background-image: url(src/backgroundphone.jpg);
+                background-position: center;
+                background-size: auto 100%; /* Height is 100%, width adjusts proportionally */
+            }
+        }
 
 
         .row {
@@ -160,7 +167,7 @@ body {
     </div>
 
     <div class="row">
-        <div style="justify-content: center; display: flex;">
+        <div style="justify-content: center; display: flex;" id="mainWindow">
             <div class="win7 window glass active noPhone"
                 style="margin-top: 3em; width: fit-content; height: fit-content;">
                 <div class="title-bar">
@@ -168,9 +175,9 @@ body {
                         <span style="overflow: hidden; white-space: nowrap; max-width: 300px;">hatse ~ tisdag vecka 50</span>
                     </div>
                     <div class="title-bar-controls">
-                        <button aria-label="Minimize"></button>
+                        <button aria-label="Minimize" onclick="hideMainWindow()"></button>
                         <button aria-label="Maximize"></button>
-                        <button aria-label="Close"></button>
+                        <button aria-label="Close" onclick="hideMainWindow()"></button>
                     </div>
                 </div>
                 <div class="window-body has-space">
@@ -251,6 +258,15 @@ body {
         }, 750);
     }
     changeTitle();
+</script>
+
+<script>
+    function hideMainWindow() {
+        const mainWindow = document.getElementById('mainWindow');
+        if (mainWindow) {
+            mainWindow.style.display = 'none';
+        }
+    }
 </script>
 
 </html>
