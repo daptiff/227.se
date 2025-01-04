@@ -10,25 +10,37 @@
     <link rel="stylesheet" href="https://unpkg.com/7.css">
 
     <style>
-        html, body {
-            height: 100%; /* Make sure the body and html take up the full height */
-            margin: 0;    /* Remove default margin/padding */
+        html,
+        body {
+            height: 100%;
+            /* Make sure the body and html take up the full height */
+            margin: 0;
+            /* Remove default margin/padding */
             padding: 0;
         }
 
-        @media only screen and (min-width: 550px) {
         body {
             background-image: url(src/background.jpg);
             background-position: center;
-            background-size: auto 100%; /* Height is 100%, width adjusts proportionally */
+            background-size: auto 100%;
+            /* Height is 100%, width adjusts proportionally */
         }
+
+        @media only screen and (min-width: 550px) {
+            body {
+                background-image: url(src/background.jpg);
+                background-position: center;
+                background-size: auto 100%;
+                /* Height is 100%, width adjusts proportionally */
+            }
         }
 
         @media only screen and (max-width: 550px) {
-                body {
+            body {
                 background-image: url(src/backgroundphone.jpg);
                 background-position: center;
-                background-size: auto 100%; /* Height is 100%, width adjusts proportionally */
+                background-size: auto 100%;
+                /* Height is 100%, width adjusts proportionally */
             }
         }
 
@@ -175,7 +187,8 @@
                 style="margin-top: 3em; width: fit-content; height: fit-content;">
                 <div class="title-bar">
                     <div class="title-bar-text">
-                        <span style="overflow: hidden; white-space: nowrap; max-width: 300px;">hatse ~ tisdag vecka 50</span>
+                        <span style="overflow: hidden; white-space: nowrap; max-width: 300px;">hatse ~ tisdag vecka
+                            50</span>
                     </div>
                     <div class="title-bar-controls">
                         <button aria-label="Minimize" onclick="hideMainWindow()"></button>
@@ -186,7 +199,11 @@
                 <div class="window-body has-space">
 
                     <div style="justify-content: center; display: flex; margin: -6px;">
-                        <iframe width="480" height="360" src="https://www.youtube.com/embed/PbFXRAKQz5Q?si=k2El5RQ1sd3WWesF" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                        <iframe width="480" height="360"
+                            src="https://www.youtube.com/embed/PbFXRAKQz5Q?si=k2El5RQ1sd3WWesF"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                     </div>
                 </div>
             </div>
@@ -194,9 +211,10 @@
 
         <div style="position: fixed; bottom: 0; left: 0; margin: 1em;">
             <span style="color: white;">/</span>
-            <a href="contact" style="color: white;" id="aboutLink">contact</a> 
+            <a href="contact" style="color: white;" id="aboutLink">contact</a>
             <span style="color: white;">/</span>
-            <a href="https://github.com/daptiff/227.se?tab=readme-ov-file#readme" style="color: white;" id="aboutLink">about</a>
+            <a href="https://github.com/daptiff/227.se?tab=readme-ov-file#readme" style="color: white;"
+                id="aboutLink">about</a>
             <span style="color: white;">/</span>
             <style>
                 #aboutLink:hover {
