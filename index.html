@@ -13,37 +13,12 @@
         html,
         body {
             height: 100%;
-            /* Make sure the body and html take up the full height */
             margin: 0;
-            /* Remove default margin/padding */
             padding: 0;
+            background-image: url('src/bgbricks.jpg');
+            background-repeat: repeat;
+            background-size: 30%;
         }
-
-        body {
-            background-image: url(src/background.jpg);
-            background-position: center;
-            background-size: auto 100%;
-            /* Height is 100%, width adjusts proportionally */
-        }
-
-        @media only screen and (min-width: 550px) {
-            body {
-                background-image: url(src/background.jpg);
-                background-position: center;
-                background-size: auto 100%;
-                /* Height is 100%, width adjusts proportionally */
-            }
-        }
-
-        @media only screen and (max-width: 550px) {
-            body {
-                background-image: url(src/backgroundphone.jpg);
-                background-position: center;
-                background-size: auto 100%;
-                /* Height is 100%, width adjusts proportionally */
-            }
-        }
-
 
         .row {
             display: flex;
@@ -55,21 +30,6 @@
             src: url('src/CSMS.ttf');
         }
 
-
-        /*@media only screen and (max-width: 600px) {
-            #logo {
-                width: 80%;
-                display: block;
-
-            }
-
-            #logoWrap {
-                justify-content: center;
-                display: flex;
-            }
-        }
-        */
-
         .yt43 {
             height: 420px;
             width: 560px;
@@ -79,7 +39,6 @@
             .yt43 {
                 height: 100%;
                 width: 90%;
-
             }
         }
 
@@ -89,27 +48,15 @@
             }
         }
 
-
-
         .button {
             margin: 0px 10px 0 10px;
-            /*font-family: 'COMICSANS';*/
             color: white;
             font-size: 175%;
         }
 
-        a:link {
-            text-decoration: none;
-        }
-
-        a:visited {
-            text-decoration: none;
-        }
-
-        a:hover {
-            text-decoration: none;
-        }
-
+        a:link,
+        a:visited,
+        a:hover,
         a:active {
             text-decoration: none;
         }
@@ -160,10 +107,8 @@
 
     <div style="justify-content: center; display: flex;" id="logoWrap">
         <a href="">
-            <img src="src/gif.gif" style="mix-blend-mode: hard-light; z-index: -1; margin: -20px 0px -40px ;"
-                width="300px" id="logo">
+            <img src="src/gif.gif" style="mix-blend-mode: hard-light; z-index: -1; margin: -20px 0px -40px ;" width="300px" id="logo">
         </a>
-
     </div>
 
     <div style="justify-content: center; display: flex;">
@@ -175,48 +120,16 @@
         </a>
         <a href="https://drive.google.com/drive/u/0/folders/1e03Q-BcK_TYJrfD3Wpg4o0903cyuu-67" class="hover-link">
             <p class="button">beats</p>
-            <p
-                style="position: absolute; top: -3px; left: 5px; rotate: -20deg; color: white; font-size: 90%; width: 100px; z-index: -2; font-family: 'COMICSANS'; animation: pulsate 1s infinite; text-align: center;line-height:10px;">
-                free beats<br>4evrrr</p>
+            <p style="position: absolute; top: -3px; left: 5px; rotate: -20deg; color: white; font-size: 90%; width: 100px; z-index: -2; font-family: 'COMICSANS'; animation: pulsate 1s infinite; text-align: center;line-height:10px;">free beats<br>4evrrr</p>
         </a>
     </div>
 
-    <!--<div class="row">
-        <div style="justify-content: center; display: flex;" id="mainWindow">
-            <div class="win7 window glass active noPhone"
-                style="margin-top: 3em; width: fit-content; height: fit-content;">
-                <div class="title-bar">
-                    <div class="title-bar-text">
-                        <span style="overflow: hidden; white-space: nowrap; max-width: 300px;">hatse ~ tisdag vecka
-                            50</span>
-                    </div>
-                    <div class="title-bar-controls">
-                        <button aria-label="Minimize" onclick="hideMainWindow()"></button>
-                        <button aria-label="Maximize"></button>
-                        <button aria-label="Close" onclick="hideMainWindow()"></button>
-                    </div>
-                </div>
-                <div class="window-body has-space">
-
-                    <div style="justify-content: center; display: flex; margin: -6px;">
-                        <iframe width="480" height="360"
-                            src="https://www.youtube.com/embed/PbFXRAKQz5Q?si=k2El5RQ1sd3WWesF"
-                            title="YouTube video player" frameborder="0"
-                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                    </div>
-                </div>
-            </div>
-        </div>-->
-
     <div class="row">
         <div style="justify-content: center; display: flex;" id="mainWindow">
-            <div class="win7 window glass active noPhone"
-                style="margin-top: 3em; width: fit-content; height: fit-content;">
+            <div class="win7 window glass active noPhone" style="margin-top: 3em; width: fit-content; height: fit-content;">
                 <div class="title-bar">
                     <div class="title-bar-text">
-                        <span style="overflow: hidden; white-space: nowrap; max-width: 300px;">0kbps.bigcartel.com
-                            </span>
+                        <span style="overflow: hidden; white-space: nowrap; max-width: 300px;">Sometimes Maybe Forever™ ★★★★★ (1)</span>
                     </div>
                     <div class="title-bar-controls">
                         <button aria-label="Minimize" onclick="hideMainWindow()"></button>
@@ -225,95 +138,28 @@
                     </div>
                 </div>
                 <div class="window-body has-space">
-
-                    <div style="justify-content: center; display: flex; margin: -6px;">
-                        <a href="0kbps">
-                            <img src="src/0kbps.gif" height="360px">
+                    <div style="justify-content: center; display: flex; margin: -6px -6px -9px;">
+                        <a href="sometimesmaybeforever">
+                            <img src="https://f4.bcbits.com/img/a0335470272_10.jpg" height="360px">
                         </a>
                     </div>
                 </div>
             </div>
         </div>
+    </div>
 
-        <div style="position: fixed; bottom: 0; left: 0; margin: 1em;">
-            <span style="color: white;">/</span>
-            <a href="contact" style="color: white;" id="aboutLink">contact</a>
-            <span style="color: white;">/</span>
-            <a href="https://github.com/daptiff/227.se?tab=readme-ov-file#readme" style="color: white;"
-                id="aboutLink">about</a>
-            <span style="color: white;">/</span>
-            <style>
-                #aboutLink:hover {
-                    text-decoration: underline;
-                }
-            </style>
-        </div>
-
-
+    <div style="position: fixed; bottom: 0; left: 0; margin: 1em;">
+        <span style="color: white;">/</span>
+        <a href="contact" style="color: white;" id="aboutLink">contact</a>
+        <span style="color: white;">/</span>
+        <a href="https://github.com/daptiff/227.se?tab=readme-ov-file#readme" style="color: white;" id="aboutLink">about</a>
+        <span style="color: white;">/</span>
+        <style>
+            #aboutLink:hover {
+                text-decoration: underline;
+            }
+        </style>
+    </div>
 
 </body>
-
-<script> // CONTENT
-    var names = [
-        "227.se",
-        "227.dk",
-        "227.de",
-        "227.fr",
-        "227.es",
-        "227.it",
-        "227.nl",
-        "227.be",
-        "227.pt",
-        "227.pl",
-        "227.cz",
-        "227.sk",
-        "227.hu",
-        "227.ro",
-        "227.bg",
-        "227.hr",
-        "227.si",
-        "227.fi",
-        "227.no",
-        "227.lv",
-        "227.lt",
-        "227.ee",
-        "227.gr",
-        "227.cy",
-        "227.mt",
-        "227.ie",
-        "227.uk",
-        "227.is",
-        "227.lu",
-        "227.at",
-        "227.ch",
-        "227.ba",
-        "227.rs",
-        "227.me",
-        "227.al",
-        "227.mk",
-        "227.nu",
-    ];
-
-    document.title = "227.se"
-
-    function changeTitle() {
-        var index = 0;
-
-        setInterval(function () {
-            document.title = names[index];
-            index = (index + 1) % names.length;
-        }, 750);
-    }
-    changeTitle();
-</script>
-
-<script>
-    function hideMainWindow() {
-        const mainWindow = document.getElementById('mainWindow');
-        if (mainWindow) {
-            mainWindow.style.display = 'none';
-        }
-    }
-</script>
-
 </html>
