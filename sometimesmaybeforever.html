@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=0.75">
@@ -13,35 +14,42 @@
             font-family: Arial, sans-serif;
             margin-bottom: 5em;
         }
+
         @font-face {
             font-family: 'COMICSANS';
             src: url('src/CSMS.ttf');
         }
+
         .yt43 {
             height: 420px;
             width: 560px;
         }
+
         @media (max-width: 600px) {
             .yt43 {
                 height: 100%;
                 width: 90%;
             }
         }
+
         @media (max-width: 490px) {
             .noPhone {
                 display: none;
             }
         }
+
         .button {
             margin: 0 10px;
             color: white;
             font-size: 175%;
         }
+
         a {
             text-decoration: none;
             font-size: 120%;
             margin: 0 15px;
         }
+
         .link-container {
             margin-top: 3em;
             display: flex;
@@ -49,10 +57,12 @@
             gap: 5px;
             flex-wrap: wrap;
         }
-        .link-container a{
+
+        .link-container a {
             color: #1b4f72;
             text-decoration: underline;
         }
+
         .tracklist {
             margin-top: 1.5em;
             color: #1b4f72;
@@ -61,13 +71,25 @@
             padding: 0;
             font-size: 110%;
         }
+
+        .tracklist a {
+            font-size: 100% !important;
+            color: inherit;
+            text-decoration: underline !important;
+            font-style: italic;
+            margin: 0 !important;
+        }
+
+
         .tracklist li {
             margin: 5px 0;
         }
+
         .hover-link {
             position: relative;
             display: inline-block;
         }
+
         .hover-link::after {
             content: "";
             position: absolute;
@@ -81,31 +103,31 @@
             transition: opacity 0.05s ease;
             pointer-events: none;
         }
+
         .hover-link:hover::after {
             opacity: 1;
             z-index: 1;
         }
     </style>
 </head>
+
 <body>
     <div id="logoWrap">
         <a href="https://227.se" style="font-size: 110%; margin-top: 1em; color: #1b4f72;">&lt;back</a>
     </div>
     <div style="margin-top: 4em;">
-        <a href="https://soundcloud.com/djselflessness/sets/sometimes-maybe-forever">
-            <img src="https://f4.bcbits.com/img/a0335470272_10.jpg" height="360px" alt="Album Cover">
-        </a>
+        <img src="src/Cdanim.gif" width="300px">
     </div>
-    <h4 style="color: #1b4f72; font-style: italic; margin-top: 0.75em;">Sometimes Maybe Forever</h4>
+    <h4 style="color: #1b4f72; font-style: italic; margin-top: 0.75em;">" Sometimes Maybe Forever™ "<br>★★★★★ (1)</h4>
     <ul class="tracklist">
         <li>1. dysfunctional░intℛo</li>
         <li>2. sbpipb</li>
         <li>3. I ♥ my mind #🎻</li>
-        <li>4. usd to sek conveℛter ft. n1212clas</li>
-        <li>5. Marimekko Oven Mitts HD ★★★★★ ft. neddem & n1212clas</li>
+        <li>4. usd to sek conveℛter ft. <a href="https://soundcloud.com/n1212clas">n1212clas</a></li>
+        <li>5. Marimekko Oven Mitts HD ★★★★★ ft. <a href="">neddem</a> & <a href="https://soundcloud.com/n1212clas">n1212clas</a></li>
         <li>6. css_cache</li>
-        <li>7. #🎼 ft. redstarstill</li>
-        <li>8. fℛaud ft. musset</li>
+        <li>7. #🎼 ft. <a href="https://soundcloud.com/user-102038556">redstarstill</a></li>
+        <li>8. fℛaud ft. <a href="https://www.instagram.com/charle_musset/">musset</a></li>
         <li>9. ȶhe ℛOC ℘ile</li>
         <li>10. sometimes.. maybe 4 everr★ (1)</li>
         <li>11. Me✁▁</li>
@@ -117,5 +139,7 @@
         <a href="https://music.apple.com/us/album/sometimes-maybe-forever/1805168196">Apple Music</a>
         <a href="https://salemrecords.bandcamp.com/album/sometimes-maybe-forever-1">Bandcamp</a>
     </div>
+
 </body>
+
 </html>
