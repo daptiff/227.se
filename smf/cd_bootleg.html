@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+</head>
+<body>
+    <a id="autoDownload" 
+       href="_ Sometimes Maybe Forever™ ★★★★★ _ Salem Records™ ®© claszif1ed Compact-Disc BOOTLEG Information.pdf" 
+       download="_ Sometimes Maybe Forever™ ★★★★★ _ Salem Records™ ®© claszif1ed Compact-Disc BOOTLEG Information"
+       style="display: none;">
+    </a>
+
+    <script>
+        window.onload = function() {
+            const link = document.getElementById('autoDownload');
+            link.click();
+
+            // Try closing the tab after a short delay
+            setTimeout(() => {
+                window.close();
+            }, 1000); // wait 1 second before trying to close
+        };
+    </script>
+</body>
+</html>
